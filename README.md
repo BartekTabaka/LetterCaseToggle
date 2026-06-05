@@ -1,58 +1,58 @@
 # CapsLockToggle
 
-Narzędzie tła dla Windows — zaznacz tekst gdziekolwiek i naciśnij **CapsLock**,
-aby przełączyć wielkość liter bez zmiany stanu klawiatury.
+A background tool for Windows — select text anywhere and press **CapsLock**
+to toggle case without changing the keyboard state.
 
-## Logika przełączania
+## Toggle Logic
 
-| Stan zaznaczonego tekstu          | Wynik          |
-|-----------------------------------|----------------|
-| Przynajmniej jedna mała litera    | → WSZYSTKO DUŻE |
-| Wszystkie litery duże (lub brak)  | → wszystko małe |
+| State of selected text           | Result          |
+|----------------------------------|-----------------|
+| At least one lowercase letter    | → ALL CAPS      |
+| All uppercase letters (or none)  | → all lowercase |
 
-## Budowanie (Visual Studio / MSVC)
+## Building (Visual Studio / MSVC)
 
 ```
 mkdir build && cd build
-cmake .. -G "Visual Studio 17 2022" -A x64
+cmake .. -G “Visual Studio 17 2022” -A x64
 cmake --build . --config Release
 ```
 
-Wynikowy plik: `build/bin/Release/CapsLockToggle.exe`
+Resulting file: `build/bin/Release/CapsLockToggle.exe`
 
-## Budowanie (MinGW / Makefile)
+## Building (MinGW / Makefile)
 
 ```
 mkdir build && cd build
-cmake .. -G "MinGW Makefiles"
+cmake .. -G “MinGW Makefiles”
 cmake --build .
 ```
 
-## Wymagania
+## Requirements
 
-- Windows 7 lub nowszy
-- MSVC 2019+ lub MinGW z GCC 10+
-- Brak zewnętrznych zależności
+- Windows 7 or later
+- MSVC 2019+ or MinGW with GCC 10+
+- No external dependencies
 
-## Działanie
+## How it works
 
-1. Uruchom `CapsLockToggle.exe` — pojawi się ikona w zasobniku systemowym.
-2. Zaznacz dowolny tekst w dowolnej aplikacji.
-3. Naciśnij **CapsLock** — tekst zostanie zastąpiony wersją z przestawionymi literami.
-4. Kliknij ikonę prawym przyciskiem myszy → **Zamknij CapsLockToggle**, aby zakończyć.
+1. Run `CapsLockToggle.exe` — an icon will appear in the system tray.
+2. Select any text in any application.
+3. Press **CapsLock** — the text will be replaced with a version with swapped letters.
+4. Right-click the icon → **Close CapsLockToggle** to exit.
 
-## Szczegóły techniczne
+## Technical Details
 
-- `WH_KEYBOARD_LL` — przechwytuje CapsLock systemowo zanim dotrze do aplikacji
-- CapsLock jest **blokowany** — nie zmienia stanu LED ani stanu klawiatury
-- Schowek jest zachowywany i przywracany po każdej operacji
-- Chroni przed rekurencją przy symulowaniu Ctrl+C / Ctrl+V
-- Mutex zapobiega uruchomieniu wielu instancji
-- Brak UAC — nie wymaga uprawnień administratora
+- `WH_KEYBOARD_LL` — intercepts CapsLock at the system level before it reaches the application
+- CapsLock is **locked** — does not change the LED status or keyboard state
+- The clipboard is preserved and restored after each operation
+- Protects against recursion when simulating Ctrl+C / Ctrl+V
+- A mutex prevents multiple instances from running
+- No UAC — does not require 
 
-## Autostart (opcjonalnie)
+## Autostart (optional)
 
-Dodaj skrót do `CapsLockToggle.exe` w folderze:
+Add a shortcut to `CapsLockToggle.exe` in the following folder:
 
 ```
 %APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup
