@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/dev/C++/LetterCaseToggle/build/cmake_install.cmake",
+		"C:/dev/C++/LetterCaseToggle/build/LetterCaseToggle/cmake_install.cmake",
+		"C:/dev/C++/LetterCaseToggle/build/Core/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
