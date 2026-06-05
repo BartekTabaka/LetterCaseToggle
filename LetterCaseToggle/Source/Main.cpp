@@ -31,11 +31,11 @@ static string ToggleCase(const string& input)
     string result = input;
     if (hasLower) {
         std::transform(result.begin(), result.end(), result.begin(),
-            [](char ch) { return std::toupper(static_cast<unsigned char>(ch)); });
+            [](unsigned char ch) { return static_cast<char>(std::toupper(ch)); });
     }
     else {
         std::transform(result.begin(), result.end(), result.begin(),
-            [](char ch) { return std::tolower(static_cast<unsigned char>(ch)); });
+            [](unsigned char ch) { return static_cast<char>(std::tolower(ch)); });
     }
 
     return result;
