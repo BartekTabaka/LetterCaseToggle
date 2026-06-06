@@ -10,27 +10,36 @@ add_executable(LetterCaseToggle)
 
 # Pliki
 set(SOURCES
-    Source/Main.cpp
+    Source/WinMain.cpp
+
+    Source/Tray.h
+    Source/Tray.cpp
+    Source/Window.h
+    Source/Window.cpp
+    Source/KeyboardHook.h
+    Source/KeyboardHook.cpp
+    Source/AppState.h
+    Source/AppState.cpp
 )
 target_sources(LetterCaseToggle PRIVATE ${SOURCES})
 
-target_include_directories(LetterCaseToggle PRIVATE Source)
+target_include_directories(LetterCaseToggle PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/Source)
 
 # Biblioteki
 target_link_libraries(LetterCaseToggle PRIVATE
     Core
-#   user32
-#   shell32
+    user32
+    shell32
 )
 
 
 # Definicje kompilacji
-#target_compile_definitions(LetterCaseToggle PRIVATE
-#    UNICODE
-#    _UNICODE
-#    WIN32_LEAN_AND_MEAN
-#    _WIN32_WINNT=0x0601
-#)
+target_compile_definitions(LetterCaseToggle PRIVATE
+    UNICODE
+    _UNICODE
+    WIN32_LEAN_AND_MEAN
+    _WIN32_WINNT=0x0601
+)
 
 # Opcje kompilacji
 target_compile_options(LetterCaseToggle PRIVATE

@@ -1,14 +1,43 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\dev\C++\LetterCaseToggle\LetterCaseToggle\Source\Main.cpp">
+    <ClCompile Include="C:\dev\C++\LetterCaseToggle\LetterCaseToggle\Source\WinMain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\dev\C++\LetterCaseToggle\LetterCaseToggle\Source\Tray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\C++\LetterCaseToggle\LetterCaseToggle\Source\Window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\C++\LetterCaseToggle\LetterCaseToggle\Source\KeyboardHook.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\C++\LetterCaseToggle\LetterCaseToggle\Source\AppState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\dev\C++\LetterCaseToggle\LetterCaseToggle\Source\Tray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\C++\LetterCaseToggle\LetterCaseToggle\Source\Window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\C++\LetterCaseToggle\LetterCaseToggle\Source\KeyboardHook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\C++\LetterCaseToggle\LetterCaseToggle\Source\AppState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\dev\C++\LetterCaseToggle\LetterCaseToggle\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{1825C19F-8917-3DE1-BE3D-DE7C32FAF43A}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Source Files">
       <UniqueIdentifier>{47DEA7AD-5462-301C-A4F1-1D9D9946BCC5}</UniqueIdentifier>
     </Filter>

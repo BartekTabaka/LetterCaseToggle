@@ -74,7 +74,7 @@ events:
       The output was:
       0
       Wersja programu MSBuild 17.14.40+3e7442088 dla .NET Framework
-      Kompilacja rozpocz─Ö┼éa si─Ö 05.06.2026 21:35:42.
+      Kompilacja rozpocz─Ö┼éa si─Ö 06.06.2026 14:37:40.
       
       Projekt ÔÇ×C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\4.3.3\\CompilerIdCXX\\CompilerIdCXX.vcxprojÔÇŁ w w─Ö┼║le 1 (domy┼Ťlne elementy docelowe).
       PrepareForBuild:
@@ -112,7 +112,7 @@ events:
           Ostrze┼╝enia: 0
           Liczba b┼é─Öd├│w: 0
       
-      Czas, kt├│ry up┼éyn─ů┼é: 00:00:00.94
+      Czas, kt├│ry up┼éyn─ů┼é: 00:00:01.43
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -833,8 +833,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/CMakeScratch/TryCompile-ngql5x"
-      binary: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/CMakeScratch/TryCompile-ngql5x"
+      source: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/CMakeScratch/TryCompile-v5tiqh"
+      binary: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/CMakeScratch/TryCompile-v5tiqh"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
@@ -845,48 +845,48 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/dev/C++/LetterCaseToggle/build/CMakeFiles/CMakeScratch/TryCompile-ngql5x'
+        Change Dir: 'C:/dev/C++/LetterCaseToggle/build/CMakeFiles/CMakeScratch/TryCompile-v5tiqh'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ee1c8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6ac94.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Wersja programu MSBuild 17.14.40+3e7442088 dla .NET Framework
-        Kompilacja rozpocz─Ö┼éa si─Ö 05.06.2026 21:35:43.
+        Kompilacja rozpocz─Ö┼éa si─Ö 06.06.2026 14:37:42.
         
-        Projekt ÔÇ×C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ngql5x\\cmTC_ee1c8.vcxprojÔÇŁ w w─Ö┼║le 1 (domy┼Ťlne elementy docelowe).
+        Projekt ÔÇ×C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v5tiqh\\cmTC_6ac94.vcxprojÔÇŁ w w─Ö┼║le 1 (domy┼Ťlne elementy docelowe).
         PrepareForBuild:
           Dane wyj┼Ťciowe ze struktur─ů s─ů w┼é─ůczone. Formatowanie diagnostyki kompilatora b─Ödzie odzwierciedla─ç hierarchi─Ö b┼é─Öd├│w. Aby uzyska─ç wi─Öcej informacji, zobacz https://aka.ms/cpp/structured-output.
-          Tworzenie katalogu ÔÇ×C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ngql5x\\Debug\\ÔÇŁ.
-          Tworzenie katalogu ÔÇ×cmTC_ee1c8.dir\\Debug\\cmTC_ee1c8.tlog\\ÔÇŁ.
+          Tworzenie katalogu ÔÇ×C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v5tiqh\\Debug\\ÔÇŁ.
+          Tworzenie katalogu ÔÇ×cmTC_6ac94.dir\\Debug\\cmTC_6ac94.tlog\\ÔÇŁ.
         InitializeBuildStatus:
-          Trwa tworzenie ÔÇ×cmTC_ee1c8.dir\\Debug\\cmTC_ee1c8.tlog\\unsuccessfulbuildÔÇŁ, poniewa┼╝ okre┼Ťlono "AlwaysCreate".
-          Modyfikowanie ÔÇ×cmTC_ee1c8.dir\\Debug\\cmTC_ee1c8.tlog\\unsuccessfulbuildÔÇŁ.
+          Trwa tworzenie ÔÇ×cmTC_6ac94.dir\\Debug\\cmTC_6ac94.tlog\\unsuccessfulbuildÔÇŁ, poniewa┼╝ okre┼Ťlono "AlwaysCreate".
+          Modyfikowanie ÔÇ×cmTC_6ac94.dir\\Debug\\cmTC_6ac94.tlog\\unsuccessfulbuildÔÇŁ.
         VcpkgTripletSelection:
           Using triplet "x64-windows" from "C:\\dev\\vcpkg\\installed\\x64-windows\\"
           Using normalized configuration "Debug"
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\dev\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_ee1c8.dir\\Debug\\\\" /Fd"cmTC_ee1c8.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\dev\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_6ac94.dir\\Debug\\\\" /Fd"cmTC_6ac94.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ wersja kompilatora optymalizuj─ůcego 19.44.35227 dla x64
           Copyright (C) Microsoft Corporation. Wszystkie prawa zastrze┼╝one.
-          cl /c /I"C:\\dev\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_ee1c8.dir\\Debug\\\\" /Fd"cmTC_ee1c8.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /I"C:\\dev\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_6ac94.dir\\Debug\\\\" /Fd"cmTC_6ac94.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ngql5x\\Debug\\cmTC_ee1c8.exe" /INCREMENTAL /ILK:"cmTC_ee1c8.dir\\Debug\\cmTC_ee1c8.ilk" /NOLOGO /LIBPATH:"C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/dev/C++/LetterCaseToggle/build/CMakeFiles/CMakeScratch/TryCompile-ngql5x/Debug/cmTC_ee1c8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/dev/C++/LetterCaseToggle/build/CMakeFiles/CMakeScratch/TryCompile-ngql5x/Debug/cmTC_ee1c8.lib" /MACHINE:X64  /machine:x64 cmTC_ee1c8.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_ee1c8.vcxproj -> C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ngql5x\\Debug\\cmTC_ee1c8.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v5tiqh\\Debug\\cmTC_6ac94.exe" /INCREMENTAL /ILK:"cmTC_6ac94.dir\\Debug\\cmTC_6ac94.ilk" /NOLOGO /LIBPATH:"C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/dev/C++/LetterCaseToggle/build/CMakeFiles/CMakeScratch/TryCompile-v5tiqh/Debug/cmTC_6ac94.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/dev/C++/LetterCaseToggle/build/CMakeFiles/CMakeScratch/TryCompile-v5tiqh/Debug/cmTC_6ac94.lib" /MACHINE:X64  /machine:x64 cmTC_6ac94.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_6ac94.vcxproj -> C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v5tiqh\\Debug\\cmTC_6ac94.exe
         AppLocalFromInstalled:
-          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ngql5x\\Debug\\cmTC_ee1c8.exe" "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_ee1c8.dir\\Debug\\cmTC_ee1c8.tlog\\cmTC_ee1c8.write.1u.tlog" "cmTC_ee1c8.dir\\Debug\\vcpkg.applocal.log"
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v5tiqh\\Debug\\cmTC_6ac94.exe" "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_6ac94.dir\\Debug\\cmTC_6ac94.tlog\\cmTC_6ac94.write.1u.tlog" "cmTC_6ac94.dir\\Debug\\vcpkg.applocal.log"
           'pwsh.exe' is not recognized as an internal or external command,
           operable program or batch file.
-          Polecenie ÔÇ×pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ngql5x\\Debug\\cmTC_ee1c8.exe" "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_ee1c8.dir\\Debug\\cmTC_ee1c8.tlog\\cmTC_ee1c8.write.1u.tlog" "cmTC_ee1c8.dir\\Debug\\vcpkg.applocal.log"ÔÇŁ zosta┼éo zako┼äczone przez kod 9009.
-          "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ngql5x\\Debug\\cmTC_ee1c8.exe" "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_ee1c8.dir\\Debug\\cmTC_ee1c8.tlog\\cmTC_ee1c8.write.1u.tlog" "cmTC_ee1c8.dir\\Debug\\vcpkg.applocal.log"
+          Polecenie ÔÇ×pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v5tiqh\\Debug\\cmTC_6ac94.exe" "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_6ac94.dir\\Debug\\cmTC_6ac94.tlog\\cmTC_6ac94.write.1u.tlog" "cmTC_6ac94.dir\\Debug\\vcpkg.applocal.log"ÔÇŁ zosta┼éo zako┼äczone przez kod 9009.
+          "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v5tiqh\\Debug\\cmTC_6ac94.exe" "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_6ac94.dir\\Debug\\cmTC_6ac94.tlog\\cmTC_6ac94.write.1u.tlog" "cmTC_6ac94.dir\\Debug\\vcpkg.applocal.log"
         FinalizeBuildStatus:
-          Usuwanie pliku ÔÇ×cmTC_ee1c8.dir\\Debug\\cmTC_ee1c8.tlog\\unsuccessfulbuildÔÇŁ.
-          Modyfikowanie ÔÇ×cmTC_ee1c8.dir\\Debug\\cmTC_ee1c8.tlog\\cmTC_ee1c8.lastbuildstateÔÇŁ.
-        Kompilowanie projektu ÔÇ×C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ngql5x\\cmTC_ee1c8.vcxprojÔÇŁ wykonane (domy┼Ťlne elementy docelowe).
+          Usuwanie pliku ÔÇ×cmTC_6ac94.dir\\Debug\\cmTC_6ac94.tlog\\unsuccessfulbuildÔÇŁ.
+          Modyfikowanie ÔÇ×cmTC_6ac94.dir\\Debug\\cmTC_6ac94.tlog\\cmTC_6ac94.lastbuildstateÔÇŁ.
+        Kompilowanie projektu ÔÇ×C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v5tiqh\\cmTC_6ac94.vcxprojÔÇŁ wykonane (domy┼Ťlne elementy docelowe).
         
         Kompilacja powiod┼éa si─Ö.
             Ostrze┼╝enia: 0
             Liczba b┼é─Öd├│w: 0
         
-        Czas, kt├│ry up┼éyn─ů┼é: 00:00:00.76
+        Czas, kt├│ry up┼éyn─ů┼é: 00:00:00.82
         
       exitCode: 0
   -
