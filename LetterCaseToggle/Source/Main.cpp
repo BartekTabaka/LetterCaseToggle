@@ -1,4 +1,5 @@
 ﻿#include <print>
+#include <QApplication>
 
 #include "Core/TextTransform.h"
 

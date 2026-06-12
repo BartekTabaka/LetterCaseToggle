@@ -300,12 +300,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\dev\C++\LetterCaseToggle\Core\Source\Core\Clipboard.h" />
-    <ClCompile Include="C:\dev\C++\LetterCaseToggle\Core\Source\Core\Clipboard.cpp" />
     <ClInclude Include="C:\dev\C++\LetterCaseToggle\Core\Source\Core\TextTransform.h" />
     <ClCompile Include="C:\dev\C++\LetterCaseToggle\Core\Source\Core\TextTransform.cpp" />
-    <ClInclude Include="C:\dev\C++\LetterCaseToggle\Core\Source\Core\InputSimulator.h" />
-    <ClCompile Include="C:\dev\C++\LetterCaseToggle\Core\Source\Core\InputSimulator.cpp" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

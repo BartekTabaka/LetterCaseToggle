@@ -34,6 +34,8 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
     found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:\\Qt\\6.11.0\\msvc2022_64"
       ENV{PATH}:
         - "C:\\Windows\\system32"
         - "C:\\Windows"
@@ -50,6 +52,7 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\dev\\vcpkg"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Qt\\6.11.0\\msvc2022_64\\bin"
         - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\user\\.dotnet\\tools"
         - "C:\\Users\\user\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
@@ -74,7 +77,7 @@ events:
       The output was:
       0
       Wersja programu MSBuild 17.14.40+3e7442088 dla .NET Framework
-      Kompilacja rozpocz─Ö┼éa si─Ö 06.06.2026 14:37:40.
+      Kompilacja rozpocz─Ö┼éa si─Ö 12.06.2026 22:53:13.
       
       Projekt ÔÇ×C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\4.3.3\\CompilerIdCXX\\CompilerIdCXX.vcxprojÔÇŁ w w─Ö┼║le 1 (domy┼Ťlne elementy docelowe).
       PrepareForBuild:
@@ -112,7 +115,7 @@ events:
           Ostrze┼╝enia: 0
           Liczba b┼é─Öd├│w: 0
       
-      Czas, kt├│ry up┼éyn─ů┼é: 00:00:01.43
+      Czas, kt├│ry up┼éyn─ů┼é: 00:00:00.79
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -160,6 +163,7 @@ events:
       - "C:/Program Files/Git/cmd/"
       - "C:/dev/vcpkg/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Qt/6.11.0/msvc2022_64/bin/"
       - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/user/.dotnet/tools/"
       - "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/bin/"
@@ -172,6 +176,8 @@ events:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
     found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
     search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:\\Qt\\6.11.0\\msvc2022_64"
       ENV{PATH}:
         - "C:\\Windows\\system32"
         - "C:\\Windows"
@@ -188,6 +194,7 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\dev\\vcpkg"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Qt\\6.11.0\\msvc2022_64\\bin"
         - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\user\\.dotnet\\tools"
         - "C:\\Users\\user\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
@@ -234,6 +241,7 @@ events:
       - "C:/Program Files/Git/cmd/"
       - "C:/dev/vcpkg/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Qt/6.11.0/msvc2022_64/bin/"
       - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/user/.dotnet/tools/"
       - "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/bin/"
@@ -291,6 +299,9 @@ events:
       - "C:/Program Files/CMake/bin/lld-link.com"
       - "C:/Program Files/CMake/bin/lld-link.exe"
       - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Qt/6.11.0/msvc2022_64/bin/lld-link.com"
+      - "C:/Qt/6.11.0/msvc2022_64/bin/lld-link.exe"
+      - "C:/Qt/6.11.0/msvc2022_64/bin/lld-link"
       - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/lld-link.com"
       - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
       - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/lld-link"
@@ -317,6 +328,8 @@ events:
       - "C:/Users/user/AppData/Local/Microsoft/WinGet/Packages/OramaInteractive.Pixelorama_Microsoft.Winget.Source_8wekyb3d8bbwe/Pixelorama-Windows-64bit/lld-link"
     found: false
     search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:\\Qt\\6.11.0\\msvc2022_64"
       ENV{PATH}:
         - "C:\\Windows\\system32"
         - "C:\\Windows"
@@ -333,6 +346,7 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\dev\\vcpkg"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Qt\\6.11.0\\msvc2022_64\\bin"
         - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\user\\.dotnet\\tools"
         - "C:\\Users\\user\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
@@ -377,6 +391,7 @@ events:
       - "C:/Program Files/Git/cmd/"
       - "C:/dev/vcpkg/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Qt/6.11.0/msvc2022_64/bin/"
       - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/user/.dotnet/tools/"
       - "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/bin/"
@@ -389,6 +404,8 @@ events:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
     found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
     search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:\\Qt\\6.11.0\\msvc2022_64"
       ENV{PATH}:
         - "C:\\Windows\\system32"
         - "C:\\Windows"
@@ -405,6 +422,7 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\dev\\vcpkg"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Qt\\6.11.0\\msvc2022_64\\bin"
         - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\user\\.dotnet\\tools"
         - "C:\\Users\\user\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
@@ -449,6 +467,7 @@ events:
       - "C:/Program Files/Git/cmd/"
       - "C:/dev/vcpkg/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Qt/6.11.0/msvc2022_64/bin/"
       - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/user/.dotnet/tools/"
       - "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/bin/"
@@ -506,6 +525,9 @@ events:
       - "C:/Program Files/CMake/bin/mt.com"
       - "C:/Program Files/CMake/bin/mt.exe"
       - "C:/Program Files/CMake/bin/mt"
+      - "C:/Qt/6.11.0/msvc2022_64/bin/mt.com"
+      - "C:/Qt/6.11.0/msvc2022_64/bin/mt.exe"
+      - "C:/Qt/6.11.0/msvc2022_64/bin/mt"
       - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/mt.com"
       - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/mt.exe"
       - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/mt"
@@ -532,6 +554,8 @@ events:
       - "C:/Users/user/AppData/Local/Microsoft/WinGet/Packages/OramaInteractive.Pixelorama_Microsoft.Winget.Source_8wekyb3d8bbwe/Pixelorama-Windows-64bit/mt"
     found: false
     search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:\\Qt\\6.11.0\\msvc2022_64"
       ENV{PATH}:
         - "C:\\Windows\\system32"
         - "C:\\Windows"
@@ -548,6 +572,7 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\dev\\vcpkg"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Qt\\6.11.0\\msvc2022_64\\bin"
         - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\user\\.dotnet\\tools"
         - "C:\\Users\\user\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
@@ -592,6 +617,7 @@ events:
       - "C:/Program Files/Git/cmd/"
       - "C:/dev/vcpkg/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Qt/6.11.0/msvc2022_64/bin/"
       - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/user/.dotnet/tools/"
       - "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/bin/"
@@ -604,6 +630,8 @@ events:
       - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.com"
     found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.exe"
     search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:\\Qt\\6.11.0\\msvc2022_64"
       ENV{PATH}:
         - "C:\\Windows\\system32"
         - "C:\\Windows"
@@ -620,6 +648,7 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\dev\\vcpkg"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Qt\\6.11.0\\msvc2022_64\\bin"
         - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\user\\.dotnet\\tools"
         - "C:\\Users\\user\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
@@ -651,6 +680,9 @@ events:
     names:
       - "rc"
     candidate_directories:
+      - "C:/Qt/6.11.0/msvc2022_64/bin/"
+      - "C:/Qt/6.11.0/msvc2022_64/sbin/"
+      - "C:/Qt/6.11.0/msvc2022_64/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
@@ -666,6 +698,7 @@ events:
       - "C:/Program Files/Git/cmd/"
       - "C:/dev/vcpkg/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Qt/6.11.0/msvc2022_64/bin/"
       - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/user/.dotnet/tools/"
       - "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/bin/"
@@ -687,6 +720,15 @@ events:
       - "C:/Program Files (x86)/LetterCaseToggle/sbin/"
       - "C:/Program Files (x86)/LetterCaseToggle/"
     searched_directories:
+      - "C:/Qt/6.11.0/msvc2022_64/bin/rc.com"
+      - "C:/Qt/6.11.0/msvc2022_64/bin/rc.exe"
+      - "C:/Qt/6.11.0/msvc2022_64/bin/rc"
+      - "C:/Qt/6.11.0/msvc2022_64/sbin/rc.com"
+      - "C:/Qt/6.11.0/msvc2022_64/sbin/rc.exe"
+      - "C:/Qt/6.11.0/msvc2022_64/sbin/rc"
+      - "C:/Qt/6.11.0/msvc2022_64/rc.com"
+      - "C:/Qt/6.11.0/msvc2022_64/rc.exe"
+      - "C:/Qt/6.11.0/msvc2022_64/rc"
       - "C:/Windows/System32/rc.com"
       - "C:/Windows/System32/rc.exe"
       - "C:/Windows/System32/rc"
@@ -732,6 +774,9 @@ events:
       - "C:/Program Files/CMake/bin/rc.com"
       - "C:/Program Files/CMake/bin/rc.exe"
       - "C:/Program Files/CMake/bin/rc"
+      - "C:/Qt/6.11.0/msvc2022_64/bin/rc.com"
+      - "C:/Qt/6.11.0/msvc2022_64/bin/rc.exe"
+      - "C:/Qt/6.11.0/msvc2022_64/bin/rc"
       - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/rc.com"
       - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/rc.exe"
       - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/rc"
@@ -794,6 +839,8 @@ events:
       - "C:/Program Files (x86)/LetterCaseToggle/rc"
     found: false
     search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:\\Qt\\6.11.0\\msvc2022_64"
       ENV{PATH}:
         - "C:\\Windows\\system32"
         - "C:\\Windows"
@@ -810,6 +857,7 @@ events:
         - "C:\\Program Files\\Git\\cmd"
         - "C:\\dev\\vcpkg"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Qt\\6.11.0\\msvc2022_64\\bin"
         - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\user\\.dotnet\\tools"
         - "C:\\Users\\user\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
@@ -833,8 +881,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/CMakeScratch/TryCompile-v5tiqh"
-      binary: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/CMakeScratch/TryCompile-v5tiqh"
+      source: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/CMakeScratch/TryCompile-0xjkdh"
+      binary: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/CMakeScratch/TryCompile-0xjkdh"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
@@ -845,48 +893,48 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/dev/C++/LetterCaseToggle/build/CMakeFiles/CMakeScratch/TryCompile-v5tiqh'
+        Change Dir: 'C:/dev/C++/LetterCaseToggle/build/CMakeFiles/CMakeScratch/TryCompile-0xjkdh'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6ac94.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_89dd7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Wersja programu MSBuild 17.14.40+3e7442088 dla .NET Framework
-        Kompilacja rozpocz─Ö┼éa si─Ö 06.06.2026 14:37:42.
+        Kompilacja rozpocz─Ö┼éa si─Ö 12.06.2026 22:53:14.
         
-        Projekt ÔÇ×C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v5tiqh\\cmTC_6ac94.vcxprojÔÇŁ w w─Ö┼║le 1 (domy┼Ťlne elementy docelowe).
+        Projekt ÔÇ×C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0xjkdh\\cmTC_89dd7.vcxprojÔÇŁ w w─Ö┼║le 1 (domy┼Ťlne elementy docelowe).
         PrepareForBuild:
           Dane wyj┼Ťciowe ze struktur─ů s─ů w┼é─ůczone. Formatowanie diagnostyki kompilatora b─Ödzie odzwierciedla─ç hierarchi─Ö b┼é─Öd├│w. Aby uzyska─ç wi─Öcej informacji, zobacz https://aka.ms/cpp/structured-output.
-          Tworzenie katalogu ÔÇ×C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v5tiqh\\Debug\\ÔÇŁ.
-          Tworzenie katalogu ÔÇ×cmTC_6ac94.dir\\Debug\\cmTC_6ac94.tlog\\ÔÇŁ.
+          Tworzenie katalogu ÔÇ×C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0xjkdh\\Debug\\ÔÇŁ.
+          Tworzenie katalogu ÔÇ×cmTC_89dd7.dir\\Debug\\cmTC_89dd7.tlog\\ÔÇŁ.
         InitializeBuildStatus:
-          Trwa tworzenie ÔÇ×cmTC_6ac94.dir\\Debug\\cmTC_6ac94.tlog\\unsuccessfulbuildÔÇŁ, poniewa┼╝ okre┼Ťlono "AlwaysCreate".
-          Modyfikowanie ÔÇ×cmTC_6ac94.dir\\Debug\\cmTC_6ac94.tlog\\unsuccessfulbuildÔÇŁ.
+          Trwa tworzenie ÔÇ×cmTC_89dd7.dir\\Debug\\cmTC_89dd7.tlog\\unsuccessfulbuildÔÇŁ, poniewa┼╝ okre┼Ťlono "AlwaysCreate".
+          Modyfikowanie ÔÇ×cmTC_89dd7.dir\\Debug\\cmTC_89dd7.tlog\\unsuccessfulbuildÔÇŁ.
         VcpkgTripletSelection:
           Using triplet "x64-windows" from "C:\\dev\\vcpkg\\installed\\x64-windows\\"
           Using normalized configuration "Debug"
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\dev\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_6ac94.dir\\Debug\\\\" /Fd"cmTC_6ac94.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\dev\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_89dd7.dir\\Debug\\\\" /Fd"cmTC_89dd7.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ wersja kompilatora optymalizuj─ůcego 19.44.35227 dla x64
           Copyright (C) Microsoft Corporation. Wszystkie prawa zastrze┼╝one.
-          cl /c /I"C:\\dev\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_6ac94.dir\\Debug\\\\" /Fd"cmTC_6ac94.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /I"C:\\dev\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_89dd7.dir\\Debug\\\\" /Fd"cmTC_89dd7.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v5tiqh\\Debug\\cmTC_6ac94.exe" /INCREMENTAL /ILK:"cmTC_6ac94.dir\\Debug\\cmTC_6ac94.ilk" /NOLOGO /LIBPATH:"C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/dev/C++/LetterCaseToggle/build/CMakeFiles/CMakeScratch/TryCompile-v5tiqh/Debug/cmTC_6ac94.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/dev/C++/LetterCaseToggle/build/CMakeFiles/CMakeScratch/TryCompile-v5tiqh/Debug/cmTC_6ac94.lib" /MACHINE:X64  /machine:x64 cmTC_6ac94.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_6ac94.vcxproj -> C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v5tiqh\\Debug\\cmTC_6ac94.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0xjkdh\\Debug\\cmTC_89dd7.exe" /INCREMENTAL /ILK:"cmTC_89dd7.dir\\Debug\\cmTC_89dd7.ilk" /NOLOGO /LIBPATH:"C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/dev/C++/LetterCaseToggle/build/CMakeFiles/CMakeScratch/TryCompile-0xjkdh/Debug/cmTC_89dd7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/dev/C++/LetterCaseToggle/build/CMakeFiles/CMakeScratch/TryCompile-0xjkdh/Debug/cmTC_89dd7.lib" /MACHINE:X64  /machine:x64 cmTC_89dd7.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_89dd7.vcxproj -> C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0xjkdh\\Debug\\cmTC_89dd7.exe
         AppLocalFromInstalled:
-          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v5tiqh\\Debug\\cmTC_6ac94.exe" "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_6ac94.dir\\Debug\\cmTC_6ac94.tlog\\cmTC_6ac94.write.1u.tlog" "cmTC_6ac94.dir\\Debug\\vcpkg.applocal.log"
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0xjkdh\\Debug\\cmTC_89dd7.exe" "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_89dd7.dir\\Debug\\cmTC_89dd7.tlog\\cmTC_89dd7.write.1u.tlog" "cmTC_89dd7.dir\\Debug\\vcpkg.applocal.log"
           'pwsh.exe' is not recognized as an internal or external command,
           operable program or batch file.
-          Polecenie ÔÇ×pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v5tiqh\\Debug\\cmTC_6ac94.exe" "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_6ac94.dir\\Debug\\cmTC_6ac94.tlog\\cmTC_6ac94.write.1u.tlog" "cmTC_6ac94.dir\\Debug\\vcpkg.applocal.log"ÔÇŁ zosta┼éo zako┼äczone przez kod 9009.
-          "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v5tiqh\\Debug\\cmTC_6ac94.exe" "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_6ac94.dir\\Debug\\cmTC_6ac94.tlog\\cmTC_6ac94.write.1u.tlog" "cmTC_6ac94.dir\\Debug\\vcpkg.applocal.log"
+          Polecenie ÔÇ×pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0xjkdh\\Debug\\cmTC_89dd7.exe" "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_89dd7.dir\\Debug\\cmTC_89dd7.tlog\\cmTC_89dd7.write.1u.tlog" "cmTC_89dd7.dir\\Debug\\vcpkg.applocal.log"ÔÇŁ zosta┼éo zako┼äczone przez kod 9009.
+          "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0xjkdh\\Debug\\cmTC_89dd7.exe" "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_89dd7.dir\\Debug\\cmTC_89dd7.tlog\\cmTC_89dd7.write.1u.tlog" "cmTC_89dd7.dir\\Debug\\vcpkg.applocal.log"
         FinalizeBuildStatus:
-          Usuwanie pliku ÔÇ×cmTC_6ac94.dir\\Debug\\cmTC_6ac94.tlog\\unsuccessfulbuildÔÇŁ.
-          Modyfikowanie ÔÇ×cmTC_6ac94.dir\\Debug\\cmTC_6ac94.tlog\\cmTC_6ac94.lastbuildstateÔÇŁ.
-        Kompilowanie projektu ÔÇ×C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v5tiqh\\cmTC_6ac94.vcxprojÔÇŁ wykonane (domy┼Ťlne elementy docelowe).
+          Usuwanie pliku ÔÇ×cmTC_89dd7.dir\\Debug\\cmTC_89dd7.tlog\\unsuccessfulbuildÔÇŁ.
+          Modyfikowanie ÔÇ×cmTC_89dd7.dir\\Debug\\cmTC_89dd7.tlog\\cmTC_89dd7.lastbuildstateÔÇŁ.
+        Kompilowanie projektu ÔÇ×C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0xjkdh\\cmTC_89dd7.vcxprojÔÇŁ wykonane (domy┼Ťlne elementy docelowe).
         
         Kompilacja powiod┼éa si─Ö.
             Ostrze┼╝enia: 0
             Liczba b┼é─Öd├│w: 0
         
-        Czas, kt├│ry up┼éyn─ů┼é: 00:00:00.82
+        Czas, kt├│ry up┼éyn─ů┼é: 00:00:00.84
         
       exitCode: 0
   -
@@ -917,4 +965,3588 @@ events:
       Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
       Microsoft (R) Incremental Linker Version 14.44.35227.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:162 (check_cxx_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/Qt6Dependencies.cmake:38 (_qt_internal_find_third_party_dependencies)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:185 (include)"
+      - "Dependencies.cmake:5 (find_package)"
+      - "CMakeLists.txt:9 (include)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/CMakeScratch/TryCompile-a40xpc"
+      binary: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/CMakeScratch/TryCompile-a40xpc"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6;C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/dev/C++/LetterCaseToggle/build/CMakeFiles/CMakeScratch/TryCompile-a40xpc'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_cbd9d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.14.40+3e7442088 dla .NET Framework
+        Kompilacja rozpocz─Ö┼éa si─Ö 12.06.2026 22:53:15.
+        
+        Projekt ÔÇ×C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a40xpc\\cmTC_cbd9d.vcxprojÔÇŁ w w─Ö┼║le 1 (domy┼Ťlne elementy docelowe).
+        PrepareForBuild:
+          Dane wyj┼Ťciowe ze struktur─ů s─ů w┼é─ůczone. Formatowanie diagnostyki kompilatora b─Ödzie odzwierciedla─ç hierarchi─Ö b┼é─Öd├│w. Aby uzyska─ç wi─Öcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu ÔÇ×C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a40xpc\\Debug\\ÔÇŁ.
+          Tworzenie katalogu ÔÇ×cmTC_cbd9d.dir\\Debug\\cmTC_cbd9d.tlog\\ÔÇŁ.
+        InitializeBuildStatus:
+          Trwa tworzenie ÔÇ×cmTC_cbd9d.dir\\Debug\\cmTC_cbd9d.tlog\\unsuccessfulbuildÔÇŁ, poniewa┼╝ okre┼Ťlono "AlwaysCreate".
+          Modyfikowanie ÔÇ×cmTC_cbd9d.dir\\Debug\\cmTC_cbd9d.tlog\\unsuccessfulbuildÔÇŁ.
+        ComputeStdModulesCompileInputs:
+          Odczytywanie pliku manifestu biblioteki ÔÇ×C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\modules\\modules.jsonÔÇŁ udost─Öpniaj─ůcej dane dla biblioteki ÔÇ×microsoft/STLÔÇŁ.
+          Dodawanie ┼║r├│d┼éa modu┼éu ÔÇ×C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\modules\\std.ixxÔÇŁ z biblioteki ÔÇ×microsoft/STLÔÇŁ do skompilowania z tym projektem.
+          Dodawanie ┼║r├│d┼éa modu┼éu ÔÇ×C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\modules\\std.compat.ixxÔÇŁ z biblioteki ÔÇ×microsoft/STLÔÇŁ do skompilowania z tym projektem.
+        MakeDirsForCl:
+          Tworzenie katalogu ÔÇ×C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a40xpc\\cmTC_cbd9d.dir\\Debug\\microsoft\\STLÔÇŁ.
+        SetModuleDependencies:
+          Tworzenie katalogu ÔÇ×cmTC_cbd9d.dir\\Debug\\cmTC_cbd9d_MD.tlog\\ÔÇŁ.
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\dev\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\dev\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /std:c++latest /Fo"cmTC_cbd9d.dir\\Debug\\\\" /Fd"cmTC_cbd9d.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a40xpc\\src.cxx"
+          Microsoft (R) C/C++ wersja kompilatora optymalizuj─ůcego 19.44.35227 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrze┼╝one.
+          Opcja /std:c++latest jest udost─Öpniana jako wersja zapoznawcza funkcji j─Özyka z najnowszej
+          wersji roboczej j─Özyka C++. Z niecierpliwo┼Ťci─ů czekamy na informacje o usterkach i sugestie dotycz─ůce ulepsze┼ä.
+          Pami─Ötaj jednak, ┼╝e te funkcje s─ů udost─Öpniane w stanie, w jakim s─ů, bez pomocy technicznej, i mog─ů
+          zmieni─ç si─Ö lub zosta─ç usuni─Öte w miar─Ö post─Öpu prac nad wersj─ů robocz─ů. Zobacz
+          https://go.microsoft.com/fwlink/?linkid=2045807 w celu uzyskania szczeg├│┼é├│w.
+          cl /c /I"C:\\dev\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /std:c++latest /Fo"cmTC_cbd9d.dir\\Debug\\\\" /Fd"cmTC_cbd9d.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a40xpc\\src.cxx"
+          src.cxx
+        C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a40xpc\\src.cxx(1,10): error C1083: Nie mo┼╝na otworzy─ç pliku do┼é─ůcz: 'pthread.h': No such file or directory [C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a40xpc\\cmTC_cbd9d.vcxproj]
+        Kompilowanie projektu ÔÇ×C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a40xpc\\cmTC_cbd9d.vcxprojÔÇŁ wykonane (domy┼Ťlne elementy docelowe) ÔÇö NIEPOWODZENIE.
+        
+        Kompilacja NIE POWIOD┼üA SI─ś.
+        
+        ÔÇ×C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a40xpc\\cmTC_cbd9d.vcxprojÔÇŁ (domy┼Ťlny element docelowy) (1)->
+        (element docelowy ClCompile) -> 
+          C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a40xpc\\src.cxx(1,10): error C1083: Nie mo┼╝na otworzy─ç pliku do┼é─ůcz: 'pthread.h': No such file or directory [C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a40xpc\\cmTC_cbd9d.vcxproj]
+        
+            Ostrze┼╝enia: 0
+            Liczba b┼é─Öd├│w: 1
+        
+        Czas, kt├│ry up┼éyn─ů┼é: 00:00:00.30
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:238 (_threads_check_lib)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/Qt6Dependencies.cmake:38 (_qt_internal_find_third_party_dependencies)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:185 (include)"
+      - "Dependencies.cmake:5 (find_package)"
+      - "CMakeLists.txt:9 (include)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/CMakeScratch/TryCompile-ycyb51"
+      binary: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/CMakeScratch/TryCompile-ycyb51"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6;C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/dev/C++/LetterCaseToggle/build/CMakeFiles/CMakeScratch/TryCompile-ycyb51'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_61729.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.14.40+3e7442088 dla .NET Framework
+        Kompilacja rozpocz─Ö┼éa si─Ö 12.06.2026 22:53:15.
+        
+        Projekt ÔÇ×C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ycyb51\\cmTC_61729.vcxprojÔÇŁ w w─Ö┼║le 1 (domy┼Ťlne elementy docelowe).
+        PrepareForBuild:
+          Dane wyj┼Ťciowe ze struktur─ů s─ů w┼é─ůczone. Formatowanie diagnostyki kompilatora b─Ödzie odzwierciedla─ç hierarchi─Ö b┼é─Öd├│w. Aby uzyska─ç wi─Öcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu ÔÇ×C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ycyb51\\Debug\\ÔÇŁ.
+          Tworzenie katalogu ÔÇ×cmTC_61729.dir\\Debug\\cmTC_61729.tlog\\ÔÇŁ.
+        InitializeBuildStatus:
+          Trwa tworzenie ÔÇ×cmTC_61729.dir\\Debug\\cmTC_61729.tlog\\unsuccessfulbuildÔÇŁ, poniewa┼╝ okre┼Ťlono "AlwaysCreate".
+          Modyfikowanie ÔÇ×cmTC_61729.dir\\Debug\\cmTC_61729.tlog\\unsuccessfulbuildÔÇŁ.
+        ComputeStdModulesCompileInputs:
+          Odczytywanie pliku manifestu biblioteki ÔÇ×C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\modules\\modules.jsonÔÇŁ udost─Öpniaj─ůcej dane dla biblioteki ÔÇ×microsoft/STLÔÇŁ.
+          Dodawanie ┼║r├│d┼éa modu┼éu ÔÇ×C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\modules\\std.ixxÔÇŁ z biblioteki ÔÇ×microsoft/STLÔÇŁ do skompilowania z tym projektem.
+          Dodawanie ┼║r├│d┼éa modu┼éu ÔÇ×C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\modules\\std.compat.ixxÔÇŁ z biblioteki ÔÇ×microsoft/STLÔÇŁ do skompilowania z tym projektem.
+        MakeDirsForCl:
+          Tworzenie katalogu ÔÇ×C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ycyb51\\cmTC_61729.dir\\Debug\\microsoft\\STLÔÇŁ.
+        SetModuleDependencies:
+          Tworzenie katalogu ÔÇ×cmTC_61729.dir\\Debug\\cmTC_61729_MD.tlog\\ÔÇŁ.
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\dev\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\dev\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /std:c++latest /Fo"cmTC_61729.dir\\Debug\\\\" /Fd"cmTC_61729.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ycyb51\\CheckFunctionExists.cxx"
+          Microsoft (R) C/C++ wersja kompilatora optymalizuj─ůcego 19.44.35227 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrze┼╝one.
+          Opcja /std:c++latest jest udost─Öpniana jako wersja zapoznawcza funkcji j─Özyka z najnowszej
+          wersji roboczej j─Özyka C++. Z niecierpliwo┼Ťci─ů czekamy na informacje o usterkach i sugestie dotycz─ůce ulepsze┼ä.
+          Pami─Ötaj jednak, ┼╝e te funkcje s─ů udost─Öpniane w stanie, w jakim s─ů, bez pomocy technicznej, i mog─ů
+          zmieni─ç si─Ö lub zosta─ç usuni─Öte w miar─Ö post─Öpu prac nad wersj─ů robocz─ů. Zobacz
+          https://go.microsoft.com/fwlink/?linkid=2045807 w celu uzyskania szczeg├│┼é├│w.
+          cl /c /I"C:\\dev\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /std:c++latest /Fo"cmTC_61729.dir\\Debug\\\\" /Fd"cmTC_61729.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ycyb51\\CheckFunctionExists.cxx"
+          CheckFunctionExists.cxx
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ycyb51\\Debug\\cmTC_61729.exe" /INCREMENTAL /ILK:"cmTC_61729.dir\\Debug\\cmTC_61729.ilk" /NOLOGO /LIBPATH:"C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/dev/C++/LetterCaseToggle/build/CMakeFiles/CMakeScratch/TryCompile-ycyb51/Debug/cmTC_61729.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/dev/C++/LetterCaseToggle/build/CMakeFiles/CMakeScratch/TryCompile-ycyb51/Debug/cmTC_61729.lib" /MACHINE:X64  /machine:x64 cmTC_61729.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: nie mo┼╝na otworzy─ç pliku "pthreads.lib" [C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ycyb51\\cmTC_61729.vcxproj]
+        Kompilowanie projektu ÔÇ×C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ycyb51\\cmTC_61729.vcxprojÔÇŁ wykonane (domy┼Ťlne elementy docelowe) ÔÇö NIEPOWODZENIE.
+        
+        Kompilacja NIE POWIOD┼üA SI─ś.
+        
+        ÔÇ×C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ycyb51\\cmTC_61729.vcxprojÔÇŁ (domy┼Ťlny element docelowy) (1)->
+        (element docelowy Link) -> 
+          LINK : fatal error LNK1104: nie mo┼╝na otworzy─ç pliku "pthreads.lib" [C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ycyb51\\cmTC_61729.vcxproj]
+        
+            Ostrze┼╝enia: 0
+            Liczba b┼é─Öd├│w: 1
+        
+        Czas, kt├│ry up┼éyn─ů┼é: 00:00:00.54
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:239 (_threads_check_lib)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/Qt6Dependencies.cmake:38 (_qt_internal_find_third_party_dependencies)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:185 (include)"
+      - "Dependencies.cmake:5 (find_package)"
+      - "CMakeLists.txt:9 (include)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/CMakeScratch/TryCompile-guyc4z"
+      binary: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/CMakeScratch/TryCompile-guyc4z"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6;C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/dev/C++/LetterCaseToggle/build/CMakeFiles/CMakeScratch/TryCompile-guyc4z'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a1019.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.14.40+3e7442088 dla .NET Framework
+        Kompilacja rozpocz─Ö┼éa si─Ö 12.06.2026 22:53:16.
+        
+        Projekt ÔÇ×C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-guyc4z\\cmTC_a1019.vcxprojÔÇŁ w w─Ö┼║le 1 (domy┼Ťlne elementy docelowe).
+        PrepareForBuild:
+          Dane wyj┼Ťciowe ze struktur─ů s─ů w┼é─ůczone. Formatowanie diagnostyki kompilatora b─Ödzie odzwierciedla─ç hierarchi─Ö b┼é─Öd├│w. Aby uzyska─ç wi─Öcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu ÔÇ×C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-guyc4z\\Debug\\ÔÇŁ.
+          Tworzenie katalogu ÔÇ×cmTC_a1019.dir\\Debug\\cmTC_a1019.tlog\\ÔÇŁ.
+        InitializeBuildStatus:
+          Trwa tworzenie ÔÇ×cmTC_a1019.dir\\Debug\\cmTC_a1019.tlog\\unsuccessfulbuildÔÇŁ, poniewa┼╝ okre┼Ťlono "AlwaysCreate".
+          Modyfikowanie ÔÇ×cmTC_a1019.dir\\Debug\\cmTC_a1019.tlog\\unsuccessfulbuildÔÇŁ.
+        ComputeStdModulesCompileInputs:
+          Odczytywanie pliku manifestu biblioteki ÔÇ×C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\modules\\modules.jsonÔÇŁ udost─Öpniaj─ůcej dane dla biblioteki ÔÇ×microsoft/STLÔÇŁ.
+          Dodawanie ┼║r├│d┼éa modu┼éu ÔÇ×C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\modules\\std.ixxÔÇŁ z biblioteki ÔÇ×microsoft/STLÔÇŁ do skompilowania z tym projektem.
+          Dodawanie ┼║r├│d┼éa modu┼éu ÔÇ×C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\modules\\std.compat.ixxÔÇŁ z biblioteki ÔÇ×microsoft/STLÔÇŁ do skompilowania z tym projektem.
+        MakeDirsForCl:
+          Tworzenie katalogu ÔÇ×C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-guyc4z\\cmTC_a1019.dir\\Debug\\microsoft\\STLÔÇŁ.
+        SetModuleDependencies:
+          Tworzenie katalogu ÔÇ×cmTC_a1019.dir\\Debug\\cmTC_a1019_MD.tlog\\ÔÇŁ.
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\dev\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\dev\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /std:c++latest /Fo"cmTC_a1019.dir\\Debug\\\\" /Fd"cmTC_a1019.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-guyc4z\\CheckFunctionExists.cxx"
+          Microsoft (R) C/C++ wersja kompilatora optymalizuj─ůcego 19.44.35227 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrze┼╝one.
+          Opcja /std:c++latest jest udost─Öpniana jako wersja zapoznawcza funkcji j─Özyka z najnowszej
+          wersji roboczej j─Özyka C++. Z niecierpliwo┼Ťci─ů czekamy na informacje o usterkach i sugestie dotycz─ůce ulepsze┼ä.
+          Pami─Ötaj jednak, ┼╝e te funkcje s─ů udost─Öpniane w stanie, w jakim s─ů, bez pomocy technicznej, i mog─ů
+          zmieni─ç si─Ö lub zosta─ç usuni─Öte w miar─Ö post─Öpu prac nad wersj─ů robocz─ů. Zobacz
+          https://go.microsoft.com/fwlink/?linkid=2045807 w celu uzyskania szczeg├│┼é├│w.
+          cl /c /I"C:\\dev\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /std:c++latest /Fo"cmTC_a1019.dir\\Debug\\\\" /Fd"cmTC_a1019.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-guyc4z\\CheckFunctionExists.cxx"
+          CheckFunctionExists.cxx
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-guyc4z\\Debug\\cmTC_a1019.exe" /INCREMENTAL /ILK:"cmTC_a1019.dir\\Debug\\cmTC_a1019.ilk" /NOLOGO /LIBPATH:"C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/dev/C++/LetterCaseToggle/build/CMakeFiles/CMakeScratch/TryCompile-guyc4z/Debug/cmTC_a1019.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/dev/C++/LetterCaseToggle/build/CMakeFiles/CMakeScratch/TryCompile-guyc4z/Debug/cmTC_a1019.lib" /MACHINE:X64  /machine:x64 cmTC_a1019.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: nie mo┼╝na otworzy─ç pliku "pthread.lib" [C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-guyc4z\\cmTC_a1019.vcxproj]
+        Kompilowanie projektu ÔÇ×C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-guyc4z\\cmTC_a1019.vcxprojÔÇŁ wykonane (domy┼Ťlne elementy docelowe) ÔÇö NIEPOWODZENIE.
+        
+        Kompilacja NIE POWIOD┼üA SI─ś.
+        
+        ÔÇ×C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-guyc4z\\cmTC_a1019.vcxprojÔÇŁ (domy┼Ťlny element docelowy) (1)->
+        (element docelowy Link) -> 
+          LINK : fatal error LNK1104: nie mo┼╝na otworzy─ç pliku "pthread.lib" [C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-guyc4z\\cmTC_a1019.vcxproj]
+        
+            Ostrze┼╝enia: 0
+            Liczba b┼é─Öd├│w: 1
+        
+        Czas, kt├│ry up┼éyn─ů┼é: 00:00:00.38
+        
+      exitCode: 1
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:100 (find_package)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake:14 (_qt_internal_find_tool_dependencies)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake:36 (include)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:100 (find_package)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:42 (_qt_internal_find_tool_dependencies)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:246 (find_package)"
+      - "Dependencies.cmake:5 (find_package)"
+      - "CMakeLists.txt:9 (include)"
+    name: "Qt6CoreTools"
+    configs:
+      -
+        filename: "Qt6CoreTools.cps"
+        kind: "cps"
+      -
+        filename: "qt6coretools.cps"
+        kind: "cps"
+      -
+        filename: "Qt6CoreToolsConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6coretools-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "6.11.0"
+      version_complete: "6.11.0"
+      exact: false
+    settings:
+      required: "optional"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6CoreTools"
+      search_paths:
+        - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6WidgetsTools/.."
+        - "C:/Qt/6.11.0/msvc2022_64/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/pkgRedirects/Qt6CoreToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/pkgRedirects/qt6coretools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/pkgRedirects/lib/cps/Qt6CoreTools.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/pkgRedirects/lib/cps/qt6coretools.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/pkgRedirects/share/cps/Qt6CoreTools.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/pkgRedirects/share/cps/qt6coretools.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/Qt6CoreToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/qt6coretools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cps/Qt6CoreTools.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cps/qt6coretools.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/share/cps/Qt6CoreTools.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/share/cps/qt6coretools.cps"
+        mode: "cps"
+        reason: "no_exist"
+    found:
+      path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake"
+      mode: "config"
+      version: "6.11.0"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:\\Qt\\6.11.0\\msvc2022_64"
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\dev\\vcpkg"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Qt\\6.11.0\\msvc2022_64\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\user\\.dotnet\\tools"
+        - "C:\\Users\\user\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\bin\\NASM"
+        - "C:\\Program Files\\qemu"
+        - "C:\\Users\\user\\Tools\\i686-elf-tools\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WinGet\\Packages\\OramaInteractive.Pixelorama_Microsoft.Winget.Source_8wekyb3d8bbwe\\Pixelorama-Windows-64bit"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/LetterCaseToggle"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/LetterCaseToggle"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:100 (find_package)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake:14 (_qt_internal_find_tool_dependencies)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake:36 (include)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:100 (find_package)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:42 (_qt_internal_find_tool_dependencies)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:246 (find_package)"
+      - "Dependencies.cmake:5 (find_package)"
+      - "CMakeLists.txt:9 (include)"
+    name: "Qt6GuiTools"
+    configs:
+      -
+        filename: "Qt6GuiTools.cps"
+        kind: "cps"
+      -
+        filename: "qt6guitools.cps"
+        kind: "cps"
+      -
+        filename: "Qt6GuiToolsConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6guitools-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "6.11.0"
+      version_complete: "6.11.0"
+      exact: false
+    settings:
+      required: "optional"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6GuiTools"
+      search_paths:
+        - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6WidgetsTools/.."
+        - "C:/Qt/6.11.0/msvc2022_64/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/pkgRedirects/Qt6GuiToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/pkgRedirects/qt6guitools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/pkgRedirects/lib/cps/Qt6GuiTools.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/pkgRedirects/lib/cps/qt6guitools.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/pkgRedirects/share/cps/Qt6GuiTools.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/pkgRedirects/share/cps/qt6guitools.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/Qt6GuiToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/qt6guitools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cps/Qt6GuiTools.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cps/qt6guitools.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/share/cps/Qt6GuiTools.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/share/cps/qt6guitools.cps"
+        mode: "cps"
+        reason: "no_exist"
+    found:
+      path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake"
+      mode: "config"
+      version: "6.11.0"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:\\Qt\\6.11.0\\msvc2022_64"
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\dev\\vcpkg"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Qt\\6.11.0\\msvc2022_64\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\user\\.dotnet\\tools"
+        - "C:\\Users\\user\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\bin\\NASM"
+        - "C:\\Program Files\\qemu"
+        - "C:\\Users\\user\\Tools\\i686-elf-tools\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WinGet\\Packages\\OramaInteractive.Pixelorama_Microsoft.Winget.Source_8wekyb3d8bbwe\\Pixelorama-Windows-64bit"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/LetterCaseToggle"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/LetterCaseToggle"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:100 (find_package)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:42 (_qt_internal_find_tool_dependencies)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:246 (find_package)"
+      - "Dependencies.cmake:5 (find_package)"
+      - "CMakeLists.txt:9 (include)"
+    name: "Qt6WidgetsTools"
+    configs:
+      -
+        filename: "Qt6WidgetsTools.cps"
+        kind: "cps"
+      -
+        filename: "qt6widgetstools.cps"
+        kind: "cps"
+      -
+        filename: "Qt6WidgetsToolsConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6widgetstools-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "6.11.0"
+      version_complete: "6.11.0"
+      exact: false
+    settings:
+      required: "optional"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6WidgetsTools"
+      search_paths:
+        - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Widgets/.."
+        - "C:/Qt/6.11.0/msvc2022_64/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/pkgRedirects/Qt6WidgetsToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/pkgRedirects/qt6widgetstools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/pkgRedirects/lib/cps/Qt6WidgetsTools.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/pkgRedirects/lib/cps/qt6widgetstools.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/pkgRedirects/share/cps/Qt6WidgetsTools.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/pkgRedirects/share/cps/qt6widgetstools.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/Qt6WidgetsToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/qt6widgetstools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cps/Qt6WidgetsTools.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cps/qt6widgetstools.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/share/cps/Qt6WidgetsTools.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/share/cps/qt6widgetstools.cps"
+        mode: "cps"
+        reason: "no_exist"
+    found:
+      path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake"
+      mode: "config"
+      version: "6.11.0"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:\\Qt\\6.11.0\\msvc2022_64"
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\dev\\vcpkg"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Qt\\6.11.0\\msvc2022_64\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\user\\.dotnet\\tools"
+        - "C:\\Users\\user\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\bin\\NASM"
+        - "C:\\Program Files\\qemu"
+        - "C:\\Users\\user\\Tools\\i686-elf-tools\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WinGet\\Packages\\OramaInteractive.Pixelorama_Microsoft.Winget.Source_8wekyb3d8bbwe\\Pixelorama-Windows-64bit"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/LetterCaseToggle"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/LetterCaseToggle"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/FindWrapAtomic.cmake:36 (check_cxx_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:36 (_qt_internal_find_third_party_dependencies)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:42 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:246 (find_package)"
+      - "Dependencies.cmake:5 (find_package)"
+      - "CMakeLists.txt:9 (include)"
+    checks:
+      - "Performing Test HAVE_STDATOMIC"
+    directories:
+      source: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/CMakeScratch/TryCompile-v13nvz"
+      binary: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/CMakeScratch/TryCompile-v13nvz"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6;C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "HAVE_STDATOMIC"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/dev/C++/LetterCaseToggle/build/CMakeFiles/CMakeScratch/TryCompile-v13nvz'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_43127.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Wersja programu MSBuild 17.14.40+3e7442088 dla .NET Framework
+        Kompilacja rozpocz─Ö┼éa si─Ö 12.06.2026 22:53:17.
+        
+        Projekt ÔÇ×C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v13nvz\\cmTC_43127.vcxprojÔÇŁ w w─Ö┼║le 1 (domy┼Ťlne elementy docelowe).
+        PrepareForBuild:
+          Dane wyj┼Ťciowe ze struktur─ů s─ů w┼é─ůczone. Formatowanie diagnostyki kompilatora b─Ödzie odzwierciedla─ç hierarchi─Ö b┼é─Öd├│w. Aby uzyska─ç wi─Öcej informacji, zobacz https://aka.ms/cpp/structured-output.
+          Tworzenie katalogu ÔÇ×C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v13nvz\\Debug\\ÔÇŁ.
+          Tworzenie katalogu ÔÇ×cmTC_43127.dir\\Debug\\cmTC_43127.tlog\\ÔÇŁ.
+        InitializeBuildStatus:
+          Trwa tworzenie ÔÇ×cmTC_43127.dir\\Debug\\cmTC_43127.tlog\\unsuccessfulbuildÔÇŁ, poniewa┼╝ okre┼Ťlono "AlwaysCreate".
+          Modyfikowanie ÔÇ×cmTC_43127.dir\\Debug\\cmTC_43127.tlog\\unsuccessfulbuildÔÇŁ.
+        ComputeStdModulesCompileInputs:
+          Odczytywanie pliku manifestu biblioteki ÔÇ×C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\modules\\modules.jsonÔÇŁ udost─Öpniaj─ůcej dane dla biblioteki ÔÇ×microsoft/STLÔÇŁ.
+          Dodawanie ┼║r├│d┼éa modu┼éu ÔÇ×C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\modules\\std.ixxÔÇŁ z biblioteki ÔÇ×microsoft/STLÔÇŁ do skompilowania z tym projektem.
+          Dodawanie ┼║r├│d┼éa modu┼éu ÔÇ×C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\modules\\std.compat.ixxÔÇŁ z biblioteki ÔÇ×microsoft/STLÔÇŁ do skompilowania z tym projektem.
+        MakeDirsForCl:
+          Tworzenie katalogu ÔÇ×C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v13nvz\\cmTC_43127.dir\\Debug\\microsoft\\STLÔÇŁ.
+        SetModuleDependencies:
+          Tworzenie katalogu ÔÇ×cmTC_43127.dir\\Debug\\cmTC_43127_MD.tlog\\ÔÇŁ.
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\dev\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\dev\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_STDATOMIC /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /std:c++latest /Fo"cmTC_43127.dir\\Debug\\\\" /Fd"cmTC_43127.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v13nvz\\src.cxx"
+          Microsoft (R) C/C++ wersja kompilatora optymalizuj─ůcego 19.44.35227 dla x64
+          Copyright (C) Microsoft Corporation. Wszystkie prawa zastrze┼╝one.
+          Opcja /std:c++latest jest udost─Öpniana jako wersja zapoznawcza funkcji j─Özyka z najnowszej
+          wersji roboczej j─Özyka C++. Z niecierpliwo┼Ťci─ů czekamy na informacje o usterkach i sugestie dotycz─ůce ulepsze┼ä.
+          Pami─Ötaj jednak, ┼╝e te funkcje s─ů udost─Öpniane w stanie, w jakim s─ů, bez pomocy technicznej, i mog─ů
+          zmieni─ç si─Ö lub zosta─ç usuni─Öte w miar─Ö post─Öpu prac nad wersj─ů robocz─ů. Zobacz
+          https://go.microsoft.com/fwlink/?linkid=2045807 w celu uzyskania szczeg├│┼é├│w.
+          cl /c /I"C:\\dev\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_STDATOMIC /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /std:c++latest /Fo"cmTC_43127.dir\\Debug\\\\" /Fd"cmTC_43127.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v13nvz\\src.cxx"
+          src.cxx
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v13nvz\\Debug\\cmTC_43127.exe" /INCREMENTAL /ILK:"cmTC_43127.dir\\Debug\\cmTC_43127.ilk" /NOLOGO /LIBPATH:"C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/dev/C++/LetterCaseToggle/build/CMakeFiles/CMakeScratch/TryCompile-v13nvz/Debug/cmTC_43127.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/dev/C++/LetterCaseToggle/build/CMakeFiles/CMakeScratch/TryCompile-v13nvz/Debug/cmTC_43127.lib" /MACHINE:X64  /machine:x64 cmTC_43127.dir\\Debug\\src.obj
+          cmTC_43127.vcxproj -> C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v13nvz\\Debug\\cmTC_43127.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v13nvz\\Debug\\cmTC_43127.exe" "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_43127.dir\\Debug\\cmTC_43127.tlog\\cmTC_43127.write.1u.tlog" "cmTC_43127.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' is not recognized as an internal or external command,
+          operable program or batch file.
+          Polecenie ÔÇ×pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v13nvz\\Debug\\cmTC_43127.exe" "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_43127.dir\\Debug\\cmTC_43127.tlog\\cmTC_43127.write.1u.tlog" "cmTC_43127.dir\\Debug\\vcpkg.applocal.log"ÔÇŁ zosta┼éo zako┼äczone przez kod 9009.
+          "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\dev\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v13nvz\\Debug\\cmTC_43127.exe" "C:\\dev\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_43127.dir\\Debug\\cmTC_43127.tlog\\cmTC_43127.write.1u.tlog" "cmTC_43127.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Usuwanie pliku ÔÇ×cmTC_43127.dir\\Debug\\cmTC_43127.tlog\\unsuccessfulbuildÔÇŁ.
+          Modyfikowanie ÔÇ×cmTC_43127.dir\\Debug\\cmTC_43127.tlog\\cmTC_43127.lastbuildstateÔÇŁ.
+        Kompilowanie projektu ÔÇ×C:\\dev\\C++\\LetterCaseToggle\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v13nvz\\cmTC_43127.vcxprojÔÇŁ wykonane (domy┼Ťlne elementy docelowe).
+        
+        Kompilacja powiod┼éa si─Ö.
+            Ostrze┼╝enia: 0
+            Liczba b┼é─Öd├│w: 0
+        
+        Czas, kt├│ry up┼éyn─ů┼é: 00:00:00.99
+        
+      exitCode: 0
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:51 (_qt_internal_find_qt_dependencies)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:42 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:246 (find_package)"
+      - "Dependencies.cmake:5 (find_package)"
+      - "CMakeLists.txt:9 (include)"
+    name: "Qt6EntryPointPrivate"
+    configs:
+      -
+        filename: "Qt6EntryPointPrivate.cps"
+        kind: "cps"
+      -
+        filename: "qt6entrypointprivate.cps"
+        kind: "cps"
+      -
+        filename: "Qt6EntryPointPrivateConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6entrypointprivate-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "6.11.0"
+      version_complete: "6.11.0"
+      exact: false
+    settings:
+      required: "optional"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6EntryPointPrivate"
+      search_paths:
+        - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Core/.."
+        - "C:/Qt/6.11.0/msvc2022_64/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: false
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/pkgRedirects/Qt6EntryPointPrivateConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/pkgRedirects/qt6entrypointprivate-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/pkgRedirects/lib/cps/Qt6EntryPointPrivate.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/pkgRedirects/lib/cps/qt6entrypointprivate.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/pkgRedirects/share/cps/Qt6EntryPointPrivate.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/pkgRedirects/share/cps/qt6entrypointprivate.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6EntryPointPrivateConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/qt6entrypointprivate-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfig.cmake"
+      mode: "config"
+      version: "6.11.0"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:\\Qt\\6.11.0\\msvc2022_64"
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\dev\\vcpkg"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Qt\\6.11.0\\msvc2022_64\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\user\\.dotnet\\tools"
+        - "C:\\Users\\user\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\bin\\NASM"
+        - "C:\\Program Files\\qemu"
+        - "C:\\Users\\user\\Tools\\i686-elf-tools\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WinGet\\Packages\\OramaInteractive.Pixelorama_Microsoft.Winget.Source_8wekyb3d8bbwe\\Pixelorama-Windows-64bit"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/LetterCaseToggle"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/LetterCaseToggle"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake:3167 (find_program)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake:29 (_qt_internal_setup_deploy_support)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:194 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:246 (find_package)"
+      - "Dependencies.cmake:5 (find_package)"
+      - "CMakeLists.txt:9 (include)"
+    mode: "program"
+    variable: "WINDEPLOYQT_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "windeployqt"
+    candidate_directories:
+      - "C:/Qt/6.11.0/msvc2022_64/bin/"
+      - "C:/Qt/6.11.0/msvc2022_64/sbin/"
+      - "C:/Qt/6.11.0/msvc2022_64/"
+      - "C:/Qt/6.11.0/msvc2022_64/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/dev/vcpkg/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/user/.dotnet/tools/"
+      - "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/user/AppData/Local/bin/NASM/"
+      - "C:/Program Files/qemu/"
+      - "C:/Users/user/Tools/i686-elf-tools/bin/"
+      - "C:/Users/user/AppData/Local/Python/bin/"
+      - "C:/Users/user/AppData/Local/Microsoft/WinGet/Packages/OramaInteractive.Pixelorama_Microsoft.Winget.Source_8wekyb3d8bbwe/Pixelorama-Windows-64bit/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/LetterCaseToggle/bin/"
+      - "C:/Program Files (x86)/LetterCaseToggle/sbin/"
+      - "C:/Program Files (x86)/LetterCaseToggle/"
+    searched_directories:
+      - "C:/Qt/6.11.0/msvc2022_64/bin/windeployqt.com"
+    found: "C:/Qt/6.11.0/msvc2022_64/bin/windeployqt.exe"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:\\Qt\\6.11.0\\msvc2022_64"
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\dev\\vcpkg"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Qt\\6.11.0\\msvc2022_64\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\user\\.dotnet\\tools"
+        - "C:\\Users\\user\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\bin\\NASM"
+        - "C:\\Program Files\\qemu"
+        - "C:\\Users\\user\\Tools\\i686-elf-tools\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WinGet\\Packages\\OramaInteractive.Pixelorama_Microsoft.Winget.Source_8wekyb3d8bbwe\\Pixelorama-Windows-64bit"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/LetterCaseToggle"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/LetterCaseToggle"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:246 (find_package)"
+      - "Dependencies.cmake:5 (find_package)"
+      - "CMakeLists.txt:9 (include)"
+    name: "Qt6Core"
+    configs:
+      -
+        filename: "Qt6Core.cps"
+        kind: "cps"
+      -
+        filename: "qt6core.cps"
+        kind: "cps"
+      -
+        filename: "Qt6CoreConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6core-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "6.11.0"
+      version_complete: "6.11.0"
+      exact: false
+    settings:
+      required: "optional"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6Core"
+      search_paths:
+        - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Widgets/.."
+        - "C:/Qt/6.11.0/msvc2022_64/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: false
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/pkgRedirects/Qt6CoreConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/pkgRedirects/qt6core-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/pkgRedirects/lib/cps/Qt6Core.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/pkgRedirects/lib/cps/qt6core.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/pkgRedirects/share/cps/Qt6Core.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/pkgRedirects/share/cps/qt6core.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6CoreConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/qt6core-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6CoreTools/Qt6CoreConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6CoreTools/qt6core-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6CorePrivate/Qt6CoreConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6CorePrivate/qt6core-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake"
+      mode: "config"
+      version: "6.11.0"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:\\Qt\\6.11.0\\msvc2022_64"
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\dev\\vcpkg"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Qt\\6.11.0\\msvc2022_64\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\user\\.dotnet\\tools"
+        - "C:\\Users\\user\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\bin\\NASM"
+        - "C:\\Program Files\\qemu"
+        - "C:\\Users\\user\\Tools\\i686-elf-tools\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WinGet\\Packages\\OramaInteractive.Pixelorama_Microsoft.Winget.Source_8wekyb3d8bbwe\\Pixelorama-Windows-64bit"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/LetterCaseToggle"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/LetterCaseToggle"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindVulkan.cmake:409 (find_path)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake:13 (find_package)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:34 (find_package)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:36 (_qt_internal_find_third_party_dependencies)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:40 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:246 (find_package)"
+      - "Dependencies.cmake:5 (find_package)"
+      - "CMakeLists.txt:9 (include)"
+    mode: "path"
+    variable: "Vulkan_INCLUDE_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "vulkan/vulkan.h"
+    candidate_directories:
+      - "C:/Qt/6.11.0/msvc2022_64/include/"
+      - "C:/Qt/6.11.0/msvc2022_64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/dev/vcpkg/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Qt/6.11.0/msvc2022_64/bin/"
+      - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/user/.dotnet/tools/"
+      - "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/user/AppData/Local/bin/NASM/"
+      - "C:/Program Files/qemu/"
+      - "C:/Users/user/Tools/i686-elf-tools/bin/"
+      - "C:/Users/user/AppData/Local/Python/bin/"
+      - "C:/Users/user/AppData/Local/Microsoft/WinGet/Packages/OramaInteractive.Pixelorama_Microsoft.Winget.Source_8wekyb3d8bbwe/Pixelorama-Windows-64bit/"
+      - "C:/Program Files/include/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/include/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/include/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/LetterCaseToggle/include/"
+      - "C:/Program Files (x86)/LetterCaseToggle/"
+    searched_directories:
+      - "C:/Qt/6.11.0/msvc2022_64/include/vulkan/vulkan.h"
+      - "C:/Qt/6.11.0/msvc2022_64/vulkan/vulkan.h"
+      - "C:/Windows/System32/vulkan/vulkan.h"
+      - "C:/Windows/vulkan/vulkan.h"
+      - "C:/Windows/System32/wbem/vulkan/vulkan.h"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/vulkan/vulkan.h"
+      - "C:/Windows/System32/OpenSSH/vulkan/vulkan.h"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/vulkan/vulkan.h"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/vulkan/vulkan.h"
+      - "C:/Program Files/dotnet/vulkan/vulkan.h"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/vulkan/vulkan.h"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/vulkan/vulkan.h"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/vulkan/vulkan.h"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/vulkan/vulkan.h"
+      - "C:/Program Files/Git/cmd/vulkan/vulkan.h"
+      - "C:/dev/vcpkg/vulkan/vulkan.h"
+      - "C:/Program Files/CMake/bin/vulkan/vulkan.h"
+      - "C:/Qt/6.11.0/msvc2022_64/bin/vulkan/vulkan.h"
+      - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/vulkan/vulkan.h"
+      - "C:/Users/user/.dotnet/tools/vulkan/vulkan.h"
+      - "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/bin/vulkan/vulkan.h"
+      - "C:/Users/user/AppData/Local/bin/NASM/vulkan/vulkan.h"
+      - "C:/Program Files/qemu/vulkan/vulkan.h"
+      - "C:/Users/user/Tools/i686-elf-tools/bin/vulkan/vulkan.h"
+      - "C:/Users/user/AppData/Local/Python/bin/vulkan/vulkan.h"
+      - "C:/Users/user/AppData/Local/Microsoft/WinGet/Packages/OramaInteractive.Pixelorama_Microsoft.Winget.Source_8wekyb3d8bbwe/Pixelorama-Windows-64bit/vulkan/vulkan.h"
+      - "C:/Program Files/include/vulkan/vulkan.h"
+      - "C:/Program Files/vulkan/vulkan.h"
+      - "C:/Program Files (x86)/include/vulkan/vulkan.h"
+      - "C:/Program Files (x86)/vulkan/vulkan.h"
+      - "C:/Program Files/CMake/include/vulkan/vulkan.h"
+      - "C:/Program Files/CMake/vulkan/vulkan.h"
+      - "C:/Program Files (x86)/LetterCaseToggle/include/vulkan/vulkan.h"
+      - "C:/Program Files (x86)/LetterCaseToggle/vulkan/vulkan.h"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:\\Qt\\6.11.0\\msvc2022_64"
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\dev\\vcpkg"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Qt\\6.11.0\\msvc2022_64\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\user\\.dotnet\\tools"
+        - "C:\\Users\\user\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\bin\\NASM"
+        - "C:\\Program Files\\qemu"
+        - "C:\\Users\\user\\Tools\\i686-elf-tools\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WinGet\\Packages\\OramaInteractive.Pixelorama_Microsoft.Winget.Source_8wekyb3d8bbwe\\Pixelorama-Windows-64bit"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/LetterCaseToggle"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/LetterCaseToggle"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindVulkan.cmake:416 (find_library)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake:13 (find_package)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:34 (find_package)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:36 (_qt_internal_find_third_party_dependencies)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:40 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:246 (find_package)"
+      - "Dependencies.cmake:5 (find_package)"
+      - "CMakeLists.txt:9 (include)"
+    mode: "library"
+    variable: "Vulkan_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "vulkan-1"
+    candidate_directories:
+      - "C:/Qt/6.11.0/msvc2022_64/lib/"
+      - "C:/Qt/6.11.0/msvc2022_64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/dev/vcpkg/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Qt/6.11.0/msvc2022_64/bin/"
+      - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/user/.dotnet/tools/"
+      - "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/user/AppData/Local/bin/NASM/"
+      - "C:/Program Files/qemu/"
+      - "C:/Users/user/Tools/i686-elf-tools/bin/"
+      - "C:/Users/user/AppData/Local/Python/bin/"
+      - "C:/Users/user/AppData/Local/Microsoft/WinGet/Packages/OramaInteractive.Pixelorama_Microsoft.Winget.Source_8wekyb3d8bbwe/Pixelorama-Windows-64bit/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/lib/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/LetterCaseToggle/lib/"
+      - "C:/Program Files (x86)/LetterCaseToggle/"
+      - "C:/Program Files (x86)/LetterCaseToggle/bin/"
+      - "/bin/"
+    searched_directories:
+      - "C:/Qt/6.11.0/msvc2022_64/lib/"
+      - "C:/Qt/6.11.0/msvc2022_64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/dev/vcpkg/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Qt/6.11.0/msvc2022_64/bin/"
+      - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/user/.dotnet/tools/"
+      - "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/user/AppData/Local/bin/NASM/"
+      - "C:/Program Files/qemu/"
+      - "C:/Users/user/Tools/i686-elf-tools/bin/"
+      - "C:/Users/user/AppData/Local/Python/bin/"
+      - "C:/Users/user/AppData/Local/Microsoft/WinGet/Packages/OramaInteractive.Pixelorama_Microsoft.Winget.Source_8wekyb3d8bbwe/Pixelorama-Windows-64bit/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/lib/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/LetterCaseToggle/lib/"
+      - "C:/Program Files (x86)/LetterCaseToggle/"
+      - "C:/Program Files (x86)/LetterCaseToggle/bin/"
+      - "/bin/"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:\\Qt\\6.11.0\\msvc2022_64"
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\dev\\vcpkg"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Qt\\6.11.0\\msvc2022_64\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\user\\.dotnet\\tools"
+        - "C:\\Users\\user\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\bin\\NASM"
+        - "C:\\Program Files\\qemu"
+        - "C:\\Users\\user\\Tools\\i686-elf-tools\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WinGet\\Packages\\OramaInteractive.Pixelorama_Microsoft.Winget.Source_8wekyb3d8bbwe\\Pixelorama-Windows-64bit"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/LetterCaseToggle"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/LetterCaseToggle"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files (x86)/LetterCaseToggle/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindVulkan.cmake:424 (find_program)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake:13 (find_package)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:34 (find_package)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:36 (_qt_internal_find_third_party_dependencies)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:40 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:246 (find_package)"
+      - "Dependencies.cmake:5 (find_package)"
+      - "CMakeLists.txt:9 (include)"
+    mode: "program"
+    variable: "Vulkan_GLSLC_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "glslc"
+    candidate_directories:
+      - "C:/Qt/6.11.0/msvc2022_64/bin/"
+      - "C:/Qt/6.11.0/msvc2022_64/sbin/"
+      - "C:/Qt/6.11.0/msvc2022_64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/dev/vcpkg/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Qt/6.11.0/msvc2022_64/bin/"
+      - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/user/.dotnet/tools/"
+      - "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/user/AppData/Local/bin/NASM/"
+      - "C:/Program Files/qemu/"
+      - "C:/Users/user/Tools/i686-elf-tools/bin/"
+      - "C:/Users/user/AppData/Local/Python/bin/"
+      - "C:/Users/user/AppData/Local/Microsoft/WinGet/Packages/OramaInteractive.Pixelorama_Microsoft.Winget.Source_8wekyb3d8bbwe/Pixelorama-Windows-64bit/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/LetterCaseToggle/bin/"
+      - "C:/Program Files (x86)/LetterCaseToggle/sbin/"
+      - "C:/Program Files (x86)/LetterCaseToggle/"
+    searched_directories:
+      - "C:/Qt/6.11.0/msvc2022_64/bin/glslc.com"
+      - "C:/Qt/6.11.0/msvc2022_64/bin/glslc.exe"
+      - "C:/Qt/6.11.0/msvc2022_64/bin/glslc"
+      - "C:/Qt/6.11.0/msvc2022_64/sbin/glslc.com"
+      - "C:/Qt/6.11.0/msvc2022_64/sbin/glslc.exe"
+      - "C:/Qt/6.11.0/msvc2022_64/sbin/glslc"
+      - "C:/Qt/6.11.0/msvc2022_64/glslc.com"
+      - "C:/Qt/6.11.0/msvc2022_64/glslc.exe"
+      - "C:/Qt/6.11.0/msvc2022_64/glslc"
+      - "C:/Windows/System32/glslc.com"
+      - "C:/Windows/System32/glslc.exe"
+      - "C:/Windows/System32/glslc"
+      - "C:/Windows/glslc.com"
+      - "C:/Windows/glslc.exe"
+      - "C:/Windows/glslc"
+      - "C:/Windows/System32/wbem/glslc.com"
+      - "C:/Windows/System32/wbem/glslc.exe"
+      - "C:/Windows/System32/wbem/glslc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/glslc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/glslc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/glslc"
+      - "C:/Windows/System32/OpenSSH/glslc.com"
+      - "C:/Windows/System32/OpenSSH/glslc.exe"
+      - "C:/Windows/System32/OpenSSH/glslc"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/glslc.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/glslc.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/glslc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/glslc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/glslc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/glslc"
+      - "C:/Program Files/dotnet/glslc.com"
+      - "C:/Program Files/dotnet/glslc.exe"
+      - "C:/Program Files/dotnet/glslc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/glslc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/glslc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/glslc"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/glslc.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/glslc.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/glslc"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/glslc.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/glslc.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/glslc"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/glslc.com"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/glslc.exe"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/glslc"
+      - "C:/Program Files/Git/cmd/glslc.com"
+      - "C:/Program Files/Git/cmd/glslc.exe"
+      - "C:/Program Files/Git/cmd/glslc"
+      - "C:/dev/vcpkg/glslc.com"
+      - "C:/dev/vcpkg/glslc.exe"
+      - "C:/dev/vcpkg/glslc"
+      - "C:/Program Files/CMake/bin/glslc.com"
+      - "C:/Program Files/CMake/bin/glslc.exe"
+      - "C:/Program Files/CMake/bin/glslc"
+      - "C:/Qt/6.11.0/msvc2022_64/bin/glslc.com"
+      - "C:/Qt/6.11.0/msvc2022_64/bin/glslc.exe"
+      - "C:/Qt/6.11.0/msvc2022_64/bin/glslc"
+      - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/glslc.com"
+      - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/glslc.exe"
+      - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/glslc"
+      - "C:/Users/user/.dotnet/tools/glslc.com"
+      - "C:/Users/user/.dotnet/tools/glslc.exe"
+      - "C:/Users/user/.dotnet/tools/glslc"
+      - "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/bin/glslc.com"
+      - "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/bin/glslc.exe"
+      - "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/bin/glslc"
+      - "C:/Users/user/AppData/Local/bin/NASM/glslc.com"
+      - "C:/Users/user/AppData/Local/bin/NASM/glslc.exe"
+      - "C:/Users/user/AppData/Local/bin/NASM/glslc"
+      - "C:/Program Files/qemu/glslc.com"
+      - "C:/Program Files/qemu/glslc.exe"
+      - "C:/Program Files/qemu/glslc"
+      - "C:/Users/user/Tools/i686-elf-tools/bin/glslc.com"
+      - "C:/Users/user/Tools/i686-elf-tools/bin/glslc.exe"
+      - "C:/Users/user/Tools/i686-elf-tools/bin/glslc"
+      - "C:/Users/user/AppData/Local/Python/bin/glslc.com"
+      - "C:/Users/user/AppData/Local/Python/bin/glslc.exe"
+      - "C:/Users/user/AppData/Local/Python/bin/glslc"
+      - "C:/Users/user/AppData/Local/Microsoft/WinGet/Packages/OramaInteractive.Pixelorama_Microsoft.Winget.Source_8wekyb3d8bbwe/Pixelorama-Windows-64bit/glslc.com"
+      - "C:/Users/user/AppData/Local/Microsoft/WinGet/Packages/OramaInteractive.Pixelorama_Microsoft.Winget.Source_8wekyb3d8bbwe/Pixelorama-Windows-64bit/glslc.exe"
+      - "C:/Users/user/AppData/Local/Microsoft/WinGet/Packages/OramaInteractive.Pixelorama_Microsoft.Winget.Source_8wekyb3d8bbwe/Pixelorama-Windows-64bit/glslc"
+      - "C:/Program Files/bin/glslc.com"
+      - "C:/Program Files/bin/glslc.exe"
+      - "C:/Program Files/bin/glslc"
+      - "C:/Program Files/sbin/glslc.com"
+      - "C:/Program Files/sbin/glslc.exe"
+      - "C:/Program Files/sbin/glslc"
+      - "C:/Program Files/glslc.com"
+      - "C:/Program Files/glslc.exe"
+      - "C:/Program Files/glslc"
+      - "C:/Program Files (x86)/bin/glslc.com"
+      - "C:/Program Files (x86)/bin/glslc.exe"
+      - "C:/Program Files (x86)/bin/glslc"
+      - "C:/Program Files (x86)/sbin/glslc.com"
+      - "C:/Program Files (x86)/sbin/glslc.exe"
+      - "C:/Program Files (x86)/sbin/glslc"
+      - "C:/Program Files (x86)/glslc.com"
+      - "C:/Program Files (x86)/glslc.exe"
+      - "C:/Program Files (x86)/glslc"
+      - "C:/Program Files/CMake/bin/glslc.com"
+      - "C:/Program Files/CMake/bin/glslc.exe"
+      - "C:/Program Files/CMake/bin/glslc"
+      - "C:/Program Files/CMake/sbin/glslc.com"
+      - "C:/Program Files/CMake/sbin/glslc.exe"
+      - "C:/Program Files/CMake/sbin/glslc"
+      - "C:/Program Files/CMake/glslc.com"
+      - "C:/Program Files/CMake/glslc.exe"
+      - "C:/Program Files/CMake/glslc"
+      - "C:/Program Files (x86)/LetterCaseToggle/bin/glslc.com"
+      - "C:/Program Files (x86)/LetterCaseToggle/bin/glslc.exe"
+      - "C:/Program Files (x86)/LetterCaseToggle/bin/glslc"
+      - "C:/Program Files (x86)/LetterCaseToggle/sbin/glslc.com"
+      - "C:/Program Files (x86)/LetterCaseToggle/sbin/glslc.exe"
+      - "C:/Program Files (x86)/LetterCaseToggle/sbin/glslc"
+      - "C:/Program Files (x86)/LetterCaseToggle/glslc.com"
+      - "C:/Program Files (x86)/LetterCaseToggle/glslc.exe"
+      - "C:/Program Files (x86)/LetterCaseToggle/glslc"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:\\Qt\\6.11.0\\msvc2022_64"
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\dev\\vcpkg"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Qt\\6.11.0\\msvc2022_64\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\user\\.dotnet\\tools"
+        - "C:\\Users\\user\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\bin\\NASM"
+        - "C:\\Program Files\\qemu"
+        - "C:\\Users\\user\\Tools\\i686-elf-tools\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WinGet\\Packages\\OramaInteractive.Pixelorama_Microsoft.Winget.Source_8wekyb3d8bbwe\\Pixelorama-Windows-64bit"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/LetterCaseToggle"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/LetterCaseToggle"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindVulkan.cmake:432 (find_program)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake:13 (find_package)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:34 (find_package)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:36 (_qt_internal_find_third_party_dependencies)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:40 (include)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:246 (find_package)"
+      - "Dependencies.cmake:5 (find_package)"
+      - "CMakeLists.txt:9 (include)"
+    mode: "program"
+    variable: "Vulkan_GLSLANG_VALIDATOR_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "glslangValidator"
+    candidate_directories:
+      - "C:/Qt/6.11.0/msvc2022_64/bin/"
+      - "C:/Qt/6.11.0/msvc2022_64/sbin/"
+      - "C:/Qt/6.11.0/msvc2022_64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/dev/vcpkg/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Qt/6.11.0/msvc2022_64/bin/"
+      - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/user/.dotnet/tools/"
+      - "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/user/AppData/Local/bin/NASM/"
+      - "C:/Program Files/qemu/"
+      - "C:/Users/user/Tools/i686-elf-tools/bin/"
+      - "C:/Users/user/AppData/Local/Python/bin/"
+      - "C:/Users/user/AppData/Local/Microsoft/WinGet/Packages/OramaInteractive.Pixelorama_Microsoft.Winget.Source_8wekyb3d8bbwe/Pixelorama-Windows-64bit/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/LetterCaseToggle/bin/"
+      - "C:/Program Files (x86)/LetterCaseToggle/sbin/"
+      - "C:/Program Files (x86)/LetterCaseToggle/"
+    searched_directories:
+      - "C:/Qt/6.11.0/msvc2022_64/bin/glslangValidator.com"
+      - "C:/Qt/6.11.0/msvc2022_64/bin/glslangValidator.exe"
+      - "C:/Qt/6.11.0/msvc2022_64/bin/glslangValidator"
+      - "C:/Qt/6.11.0/msvc2022_64/sbin/glslangValidator.com"
+      - "C:/Qt/6.11.0/msvc2022_64/sbin/glslangValidator.exe"
+      - "C:/Qt/6.11.0/msvc2022_64/sbin/glslangValidator"
+      - "C:/Qt/6.11.0/msvc2022_64/glslangValidator.com"
+      - "C:/Qt/6.11.0/msvc2022_64/glslangValidator.exe"
+      - "C:/Qt/6.11.0/msvc2022_64/glslangValidator"
+      - "C:/Windows/System32/glslangValidator.com"
+      - "C:/Windows/System32/glslangValidator.exe"
+      - "C:/Windows/System32/glslangValidator"
+      - "C:/Windows/glslangValidator.com"
+      - "C:/Windows/glslangValidator.exe"
+      - "C:/Windows/glslangValidator"
+      - "C:/Windows/System32/wbem/glslangValidator.com"
+      - "C:/Windows/System32/wbem/glslangValidator.exe"
+      - "C:/Windows/System32/wbem/glslangValidator"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/glslangValidator.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/glslangValidator.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/glslangValidator"
+      - "C:/Windows/System32/OpenSSH/glslangValidator.com"
+      - "C:/Windows/System32/OpenSSH/glslangValidator.exe"
+      - "C:/Windows/System32/OpenSSH/glslangValidator"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/glslangValidator.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/glslangValidator.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/glslangValidator"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/glslangValidator.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/glslangValidator.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/glslangValidator"
+      - "C:/Program Files/dotnet/glslangValidator.com"
+      - "C:/Program Files/dotnet/glslangValidator.exe"
+      - "C:/Program Files/dotnet/glslangValidator"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/glslangValidator.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/glslangValidator.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/glslangValidator"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/glslangValidator.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/glslangValidator.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/glslangValidator"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/glslangValidator.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/glslangValidator.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/glslangValidator"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/glslangValidator.com"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/glslangValidator.exe"
+      - "C:/Program Files/Microsoft SQL Server/170/Tools/Binn/glslangValidator"
+      - "C:/Program Files/Git/cmd/glslangValidator.com"
+      - "C:/Program Files/Git/cmd/glslangValidator.exe"
+      - "C:/Program Files/Git/cmd/glslangValidator"
+      - "C:/dev/vcpkg/glslangValidator.com"
+      - "C:/dev/vcpkg/glslangValidator.exe"
+      - "C:/dev/vcpkg/glslangValidator"
+      - "C:/Program Files/CMake/bin/glslangValidator.com"
+      - "C:/Program Files/CMake/bin/glslangValidator.exe"
+      - "C:/Program Files/CMake/bin/glslangValidator"
+      - "C:/Qt/6.11.0/msvc2022_64/bin/glslangValidator.com"
+      - "C:/Qt/6.11.0/msvc2022_64/bin/glslangValidator.exe"
+      - "C:/Qt/6.11.0/msvc2022_64/bin/glslangValidator"
+      - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/glslangValidator.com"
+      - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/glslangValidator.exe"
+      - "C:/Users/user/AppData/Local/Microsoft/WindowsApps/glslangValidator"
+      - "C:/Users/user/.dotnet/tools/glslangValidator.com"
+      - "C:/Users/user/.dotnet/tools/glslangValidator.exe"
+      - "C:/Users/user/.dotnet/tools/glslangValidator"
+      - "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/bin/glslangValidator.com"
+      - "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/bin/glslangValidator.exe"
+      - "C:/Users/user/AppData/Local/Programs/Microsoft VS Code/bin/glslangValidator"
+      - "C:/Users/user/AppData/Local/bin/NASM/glslangValidator.com"
+      - "C:/Users/user/AppData/Local/bin/NASM/glslangValidator.exe"
+      - "C:/Users/user/AppData/Local/bin/NASM/glslangValidator"
+      - "C:/Program Files/qemu/glslangValidator.com"
+      - "C:/Program Files/qemu/glslangValidator.exe"
+      - "C:/Program Files/qemu/glslangValidator"
+      - "C:/Users/user/Tools/i686-elf-tools/bin/glslangValidator.com"
+      - "C:/Users/user/Tools/i686-elf-tools/bin/glslangValidator.exe"
+      - "C:/Users/user/Tools/i686-elf-tools/bin/glslangValidator"
+      - "C:/Users/user/AppData/Local/Python/bin/glslangValidator.com"
+      - "C:/Users/user/AppData/Local/Python/bin/glslangValidator.exe"
+      - "C:/Users/user/AppData/Local/Python/bin/glslangValidator"
+      - "C:/Users/user/AppData/Local/Microsoft/WinGet/Packages/OramaInteractive.Pixelorama_Microsoft.Winget.Source_8wekyb3d8bbwe/Pixelorama-Windows-64bit/glslangValidator.com"
+      - "C:/Users/user/AppData/Local/Microsoft/WinGet/Packages/OramaInteractive.Pixelorama_Microsoft.Winget.Source_8wekyb3d8bbwe/Pixelorama-Windows-64bit/glslangValidator.exe"
+      - "C:/Users/user/AppData/Local/Microsoft/WinGet/Packages/OramaInteractive.Pixelorama_Microsoft.Winget.Source_8wekyb3d8bbwe/Pixelorama-Windows-64bit/glslangValidator"
+      - "C:/Program Files/bin/glslangValidator.com"
+      - "C:/Program Files/bin/glslangValidator.exe"
+      - "C:/Program Files/bin/glslangValidator"
+      - "C:/Program Files/sbin/glslangValidator.com"
+      - "C:/Program Files/sbin/glslangValidator.exe"
+      - "C:/Program Files/sbin/glslangValidator"
+      - "C:/Program Files/glslangValidator.com"
+      - "C:/Program Files/glslangValidator.exe"
+      - "C:/Program Files/glslangValidator"
+      - "C:/Program Files (x86)/bin/glslangValidator.com"
+      - "C:/Program Files (x86)/bin/glslangValidator.exe"
+      - "C:/Program Files (x86)/bin/glslangValidator"
+      - "C:/Program Files (x86)/sbin/glslangValidator.com"
+      - "C:/Program Files (x86)/sbin/glslangValidator.exe"
+      - "C:/Program Files (x86)/sbin/glslangValidator"
+      - "C:/Program Files (x86)/glslangValidator.com"
+      - "C:/Program Files (x86)/glslangValidator.exe"
+      - "C:/Program Files (x86)/glslangValidator"
+      - "C:/Program Files/CMake/bin/glslangValidator.com"
+      - "C:/Program Files/CMake/bin/glslangValidator.exe"
+      - "C:/Program Files/CMake/bin/glslangValidator"
+      - "C:/Program Files/CMake/sbin/glslangValidator.com"
+      - "C:/Program Files/CMake/sbin/glslangValidator.exe"
+      - "C:/Program Files/CMake/sbin/glslangValidator"
+      - "C:/Program Files/CMake/glslangValidator.com"
+      - "C:/Program Files/CMake/glslangValidator.exe"
+      - "C:/Program Files/CMake/glslangValidator"
+      - "C:/Program Files (x86)/LetterCaseToggle/bin/glslangValidator.com"
+      - "C:/Program Files (x86)/LetterCaseToggle/bin/glslangValidator.exe"
+      - "C:/Program Files (x86)/LetterCaseToggle/bin/glslangValidator"
+      - "C:/Program Files (x86)/LetterCaseToggle/sbin/glslangValidator.com"
+      - "C:/Program Files (x86)/LetterCaseToggle/sbin/glslangValidator.exe"
+      - "C:/Program Files (x86)/LetterCaseToggle/sbin/glslangValidator"
+      - "C:/Program Files (x86)/LetterCaseToggle/glslangValidator.com"
+      - "C:/Program Files (x86)/LetterCaseToggle/glslangValidator.exe"
+      - "C:/Program Files (x86)/LetterCaseToggle/glslangValidator"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:\\Qt\\6.11.0\\msvc2022_64"
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\dev\\vcpkg"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Qt\\6.11.0\\msvc2022_64\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\user\\.dotnet\\tools"
+        - "C:\\Users\\user\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\bin\\NASM"
+        - "C:\\Program Files\\qemu"
+        - "C:\\Users\\user\\Tools\\i686-elf-tools\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WinGet\\Packages\\OramaInteractive.Pixelorama_Microsoft.Winget.Source_8wekyb3d8bbwe\\Pixelorama-Windows-64bit"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/LetterCaseToggle"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/LetterCaseToggle"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:246 (find_package)"
+      - "Dependencies.cmake:5 (find_package)"
+      - "CMakeLists.txt:9 (include)"
+    name: "Qt6Gui"
+    configs:
+      -
+        filename: "Qt6Gui.cps"
+        kind: "cps"
+      -
+        filename: "qt6gui.cps"
+        kind: "cps"
+      -
+        filename: "Qt6GuiConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6gui-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "6.11.0"
+      version_complete: "6.11.0"
+      exact: false
+    settings:
+      required: "optional"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6Gui"
+      search_paths:
+        - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Widgets/.."
+        - "C:/Qt/6.11.0/msvc2022_64/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: false
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/pkgRedirects/Qt6GuiConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/pkgRedirects/qt6gui-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/pkgRedirects/lib/cps/Qt6Gui.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/pkgRedirects/lib/cps/qt6gui.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/pkgRedirects/share/cps/Qt6Gui.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/pkgRedirects/share/cps/qt6gui.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6GuiConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/qt6gui-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6GuiTools/Qt6GuiConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6GuiTools/qt6gui-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6GuiPrivate/Qt6GuiConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6GuiPrivate/qt6gui-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake"
+      mode: "config"
+      version: "6.11.0"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:\\Qt\\6.11.0\\msvc2022_64"
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\dev\\vcpkg"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Qt\\6.11.0\\msvc2022_64\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\user\\.dotnet\\tools"
+        - "C:\\Users\\user\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\bin\\NASM"
+        - "C:\\Program Files\\qemu"
+        - "C:\\Users\\user\\Tools\\i686-elf-tools\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WinGet\\Packages\\OramaInteractive.Pixelorama_Microsoft.Winget.Source_8wekyb3d8bbwe\\Pixelorama-Windows-64bit"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/LetterCaseToggle"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/LetterCaseToggle"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:246 (find_package)"
+      - "Dependencies.cmake:5 (find_package)"
+      - "CMakeLists.txt:9 (include)"
+    name: "Qt6Widgets"
+    configs:
+      -
+        filename: "Qt6Widgets.cps"
+        kind: "cps"
+      -
+        filename: "qt6widgets.cps"
+        kind: "cps"
+      -
+        filename: "Qt6WidgetsConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6widgets-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6Widgets"
+      search_paths:
+        - "C:/Qt/6.11.0/msvc2022_64/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: false
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/pkgRedirects/Qt6WidgetsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/pkgRedirects/qt6widgets-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/pkgRedirects/lib/cps/Qt6Widgets.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/pkgRedirects/lib/cps/qt6widgets.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/pkgRedirects/share/cps/Qt6Widgets.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/pkgRedirects/share/cps/qt6widgets.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6WidgetsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/qt6widgets-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6WidgetsTools/qt6widgets-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6WidgetsPrivate/qt6widgets-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake"
+      mode: "config"
+      version: "6.11.0"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:\\Qt\\6.11.0\\msvc2022_64"
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\dev\\vcpkg"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Qt\\6.11.0\\msvc2022_64\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\user\\.dotnet\\tools"
+        - "C:\\Users\\user\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\bin\\NASM"
+        - "C:\\Program Files\\qemu"
+        - "C:\\Users\\user\\Tools\\i686-elf-tools\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WinGet\\Packages\\OramaInteractive.Pixelorama_Microsoft.Winget.Source_8wekyb3d8bbwe\\Pixelorama-Windows-64bit"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/LetterCaseToggle"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/LetterCaseToggle"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "Dependencies.cmake:5 (find_package)"
+      - "CMakeLists.txt:9 (include)"
+    name: "Qt6"
+    components:
+      -
+        name: "Widgets"
+        required: true
+        found: false
+    configs:
+      -
+        filename: "Qt6.cps"
+        kind: "cps"
+      -
+        filename: "qt6.cps"
+        kind: "cps"
+      -
+        filename: "Qt6Config.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/pkgRedirects/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/pkgRedirects/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/pkgRedirects/lib/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/pkgRedirects/lib/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/pkgRedirects/share/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/dev/C++/LetterCaseToggle/build/CMakeFiles/pkgRedirects/share/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/share/cps/Qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/share/cps/qt6.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6ZlibPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6ZlibPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6XmlPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6XmlPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Xml/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Xml/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6WidgetsTools/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6WidgetsTools/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6WidgetsPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6WidgetsPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Widgets/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Widgets/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6UiToolsPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6UiToolsPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6UiTools/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6UiTools/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6UiPlugin/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6UiPlugin/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6ToolsTools/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6ToolsTools/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Tools/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Tools/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6TestPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6TestPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6TestInternalsPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6TestInternalsPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Test/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Test/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6SvgWidgets/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6SvgWidgets/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6SvgPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6SvgPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Svg/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Svg/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6SqlPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6SqlPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Sql/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Sql/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickWidgetsPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickWidgetsPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickWidgets/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickWidgets/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickVectorImagePrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickVectorImagePrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickVectorImageHelpersPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickVectorImageHelpersPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickVectorImageHelpers/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickVectorImageHelpers/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickVectorImageGeneratorPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickVectorImageGeneratorPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickVectorImage/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickVectorImage/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickTools/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickTools/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickTestUtilsPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickTestUtilsPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickTestPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickTestPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickTest/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickTest/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickTemplates2Private/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickTemplates2Private/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickTemplates2/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickTemplates2/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickShapesPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickShapesPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickShapesDesignHelpersPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickShapesDesignHelpersPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickShapes/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickShapes/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickParticlesPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickParticlesPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickLayoutsPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickLayoutsPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickLayouts/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickLayouts/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickEffectsPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickEffectsPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickEffects/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickEffects/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickDialogs2UtilsPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickDialogs2UtilsPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickDialogs2Utils/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickDialogs2Utils/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickDialogs2QuickImplPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickDialogs2QuickImplPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickDialogs2QuickImpl/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickDialogs2QuickImpl/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickDialogs2Private/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickDialogs2Private/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickDialogs2/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickDialogs2/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickControlsTestUtilsPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickControlsTestUtilsPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickControls2WindowsStyleImpl/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickControls2WindowsStyleImpl/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickControls2UniversalStyleImplPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickControls2UniversalStyleImplPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickControls2UniversalStyleImpl/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickControls2UniversalStyleImpl/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickControls2UniversalPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickControls2UniversalPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickControls2Universal/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickControls2Universal/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickControls2Private/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickControls2Private/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickControls2MaterialStyleImplPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickControls2MaterialStyleImplPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickControls2MaterialStyleImpl/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickControls2MaterialStyleImpl/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickControls2MaterialPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickControls2MaterialPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickControls2Material/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickControls2Material/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickControls2ImplPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickControls2ImplPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickControls2Impl/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickControls2Impl/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickControls2ImagineStyleImpl/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickControls2ImagineStyleImpl/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickControls2ImaginePrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickControls2ImaginePrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickControls2Imagine/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickControls2Imagine/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickControls2FusionStyleImplPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickControls2FusionStyleImplPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickControls2FusionStyleImpl/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickControls2FusionStyleImpl/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickControls2FusionPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickControls2FusionPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickControls2Fusion/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickControls2Fusion/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickControls2FluentWinUI3StyleImplPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickControls2FluentWinUI3StyleImplPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickControls2FluentWinUI3StyleImpl/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickControls2FluentWinUI3StyleImpl/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickControls2BasicStyleImplPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickControls2BasicStyleImplPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickControls2BasicStyleImpl/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickControls2BasicStyleImpl/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickControls2BasicPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickControls2BasicPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickControls2Basic/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickControls2Basic/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickControls2/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QuickControls2/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Quick/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Quick/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QmlXmlListModelPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QmlXmlListModelPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QmlXmlListModel/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QmlXmlListModel/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QmlWorkerScriptPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QmlWorkerScriptPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QmlWorkerScript/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QmlWorkerScript/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QmlTypeRegistrarPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QmlTypeRegistrarPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QmlTools/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QmlTools/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QmlToolingSettingsPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QmlToolingSettingsPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QmlPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QmlPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QmlNetworkPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QmlNetworkPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QmlNetwork/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QmlNetwork/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QmlModelsPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QmlModelsPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QmlModels/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QmlModels/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QmlMetaPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QmlMetaPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QmlMeta/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QmlMeta/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QmlLocalStoragePrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QmlLocalStoragePrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QmlLocalStorage/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QmlLocalStorage/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QmlLSPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QmlLSPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QmlIntegration/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QmlIntegration/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QmlImportScanner/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QmlImportScanner/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QmlFormatPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QmlFormatPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QmlDomPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QmlDomPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QmlDebugPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QmlDebugPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QmlCorePrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QmlCorePrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QmlCore/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QmlCore/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QmlCompilerPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QmlCompilerPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QmlCompiler/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QmlCompiler/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QmlAssetDownloaderPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QmlAssetDownloaderPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Qml/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Qml/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QDocCatchPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QDocCatchPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QDocCatchGeneratorsPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QDocCatchGeneratorsPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QDocCatchConversionsPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6QDocCatchConversionsPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6PrintSupportPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6PrintSupportPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6PrintSupport/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6PrintSupport/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6PositioningQuickPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6PositioningQuickPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6PositioningQuick/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6PositioningQuick/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6PositioningPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6PositioningPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Positioning/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Positioning/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6PngPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6PngPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6PacketProtocolPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6PacketProtocolPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6OpenGLWidgets/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6OpenGLWidgets/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6OpenGLPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6OpenGLPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6OpenGL/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6OpenGL/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6NetworkPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6NetworkPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Network/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Network/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6LinguistTools/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6LinguistTools/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Linguist/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Linguist/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6LabsWavefrontMeshPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6LabsWavefrontMeshPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6LabsWavefrontMesh/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6LabsWavefrontMesh/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6LabsSynchronizerPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6LabsSynchronizerPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6LabsSynchronizer/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6LabsSynchronizer/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6LabsStyleKitPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6LabsStyleKitPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6LabsStyleKitImplPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6LabsStyleKitImplPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6LabsStyleKitImpl/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6LabsStyleKitImpl/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6LabsStyleKit/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6LabsStyleKit/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6LabsSharedImagePrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6LabsSharedImagePrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6LabsSharedImage/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6LabsSharedImage/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6LabsSettingsPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6LabsSettingsPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6LabsSettings/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6LabsSettings/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6LabsQmlModelsPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6LabsQmlModelsPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6LabsQmlModels/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6LabsQmlModels/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6LabsPlatformPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6LabsPlatformPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6LabsPlatform/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6LabsPlatform/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6LabsFolderListModelPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6LabsFolderListModelPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6LabsFolderListModel/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6LabsFolderListModel/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6LabsAnimationPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6LabsAnimationPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6LabsAnimation/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6LabsAnimation/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6JpegPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6JpegPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6HostInfo/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6HostInfo/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6HelpPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6HelpPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Help/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Help/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6HarfbuzzPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6HarfbuzzPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6GuiTools/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6GuiTools/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6GuiPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6GuiPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Gui/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Gui/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6FreetypePrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6FreetypePrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6FbSupportPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6FbSupportPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6EntryPointPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6EntryPointPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6DeviceDiscoverySupportPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6DeviceDiscoverySupportPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6DesignerPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6DesignerPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6DesignerComponentsPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6DesignerComponentsPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Designer/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Designer/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6DBusTools/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6DBusTools/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6DBusPrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6DBusPrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6DBus/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6DBus/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6CoreTools/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6CoreTools/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6CorePrivate/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6CorePrivate/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Core/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Core/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Concurrent/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6Concurrent/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6BundledLibpng/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6BundledLibpng/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6BundledLibjpeg/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6BundledLibjpeg/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6BundledFreetype/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6BundledFreetype/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6BuildInternals/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6BuildInternals/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake"
+      mode: "config"
+      version: "6.11.0"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:\\Qt\\6.11.0\\msvc2022_64"
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\dev\\vcpkg"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Qt\\6.11.0\\msvc2022_64\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\user\\.dotnet\\tools"
+        - "C:\\Users\\user\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\bin\\NASM"
+        - "C:\\Program Files\\qemu"
+        - "C:\\Users\\user\\Tools\\i686-elf-tools\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\user\\AppData\\Local\\Microsoft\\WinGet\\Packages\\OramaInteractive.Pixelorama_Microsoft.Winget.Source_8wekyb3d8bbwe\\Pixelorama-Windows-64bit"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/LetterCaseToggle"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/LetterCaseToggle"
+      CMAKE_MODULE_PATH:
+        - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6"
+        - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules"
+        - "C:/Qt/6.11.0/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
 ...

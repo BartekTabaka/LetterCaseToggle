@@ -2,46 +2,34 @@
 # App
 #
 
-# Konsolowa wersja
-add_executable(LetterCaseToggle)
-
-# Finalna wersja
-#add_executable(LetterCaseToggle WIN32)
-
-# Pliki
+# Files
 set(SOURCES
-    Source/WinMain.cpp
+    Source/Main.cpp
 
+    Source/App.h
+    Source/App.cpp
+    Source/SystemHook.h
+    Source/SystemHook.cpp
     Source/Tray.h
     Source/Tray.cpp
-    Source/Window.h
-    Source/Window.cpp
-    Source/KeyboardHook.h
-    Source/KeyboardHook.cpp
-    Source/AppState.h
-    Source/AppState.cpp
 )
+qt_add_executable(LetterCaseToggle)
 target_sources(LetterCaseToggle PRIVATE ${SOURCES})
 
 target_include_directories(LetterCaseToggle PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/Source)
 
-# Biblioteki
+# Libraries
 target_link_libraries(LetterCaseToggle PRIVATE
+    Qt6::Widgets
     Core
-    user32
-    shell32
 )
 
+# Windows-only stuff
+if (WIN32)
+    target_link_libraries(LetterCaseToggle PRIVATE user32)
+endif()
 
-# Definicje kompilacji
-target_compile_definitions(LetterCaseToggle PRIVATE
-    UNICODE
-    _UNICODE
-    WIN32_LEAN_AND_MEAN
-    _WIN32_WINNT=0x0601
-)
-
-# Opcje kompilacji
+# Compilation options
 target_compile_options(LetterCaseToggle PRIVATE
     /W4
     /WX
@@ -51,8 +39,4 @@ target_compile_options(LetterCaseToggle PRIVATE
 # Working dir
 set_target_properties(LetterCaseToggle PROPERTIES 
     VS_DEBUGGER_WORKING_DIRECTORY "${CMAKE_SOURCE_DIR}/LetterCaseToggle"
-)
-# Output dir
-set_target_properties(LetterCaseToggle PROPERTIES
-    RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin"
 )
