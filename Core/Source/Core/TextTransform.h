@@ -3,5 +3,5 @@
 
 namespace Core
 {
-	static std::wstring ToggleCase(const std::wstring& input);
+	std::wstring ToggleCase(const std::wstring& input);
 }

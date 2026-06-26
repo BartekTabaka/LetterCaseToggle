@@ -1,9 +1,10 @@
 #include "TextTransform.h"
 #include <algorithm>
+#include <cwctype>
 
 namespace Core
 {
-	static std::wstring ToggleCase(const std::wstring& input)
+	std::wstring ToggleCase(const std::wstring& input)
 	{
 		bool hasLower = false;
 		for (wchar_t c : input) {
@@ -20,5 +21,6 @@ namespace Core
 			std::transform(result.begin(), result.end(), result.begin(), towlower);
 
 		return result;
+
 	}
 }
