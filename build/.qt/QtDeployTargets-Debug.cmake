@@ -1,5 +1,0 @@
-set(__QT_DEPLOY_TARGET_LetterCaseToggle_FILE C:/dev/C++/LetterCaseToggle/build/LetterCaseToggle/Debug/LetterCaseToggle.exe)
-set(__QT_DEPLOY_TARGET_LetterCaseToggle_TYPE EXECUTABLE)
-set(__QT_DEPLOY_TARGET_LetterCaseToggle_RUNTIME_DLLS C:/Qt/6.11.0/msvc2022_64/bin/Qt6Widgetsd.dll;C:/Qt/6.11.0/msvc2022_64/bin/Qt6Guid.dll;C:/Qt/6.11.0/msvc2022_64/bin/Qt6Cored.dll)
-set(__QT_DEPLOY_TARGET_Core_FILE C:/dev/C++/LetterCaseToggle/build/Core/Debug/Core.lib)
-set(__QT_DEPLOY_TARGET_Core_TYPE STATIC_LIBRARY)
