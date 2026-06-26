@@ -12,6 +12,12 @@ App::App(QApplication& app) : m_App(app)
 	m_Clipboard = QApplication::clipboard();
 }
 
+/// <summary>
+///	Toggles the case of the currently selected text by copying it to the clipboard,
+/// transforming it, and pasting it back, while preserving the previous clipboard content.
+/// If CapsLock has been pressed but no text is selected, the original clipboard content is restored.
+/// Includes short delays to ensure clipboard and input events are processed correctly by the system.
+/// </summary>
 void App::HandleCaps()
 {
 	if (m_Busy) return;
