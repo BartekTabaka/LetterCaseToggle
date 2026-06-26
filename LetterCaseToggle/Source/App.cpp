@@ -25,15 +25,18 @@ void App::HandleCaps()
 {
 	if (m_Busy) return;
 	m_Busy = true;
+	qDebug() << "HandleCaps()";
 
 	QString previous = m_Clipboard->text();
 	m_Clipboard->clear();
 
 	SendCtrlCommand('C');
+	qDebug() << "Sent Ctrl+C";
 	Sleep(80);
 
 	QString selected = m_Clipboard->text();
 	if (!selected.isEmpty()) {
+		qDebug() << "Text was selected";
 		std::wstring input = selected.toStdWString();
 		std::wstring toggled = Core::ToggleCase(input);
 
@@ -44,6 +47,7 @@ void App::HandleCaps()
 		Sleep(80);
 	}
 
+	qDebug() << "Escaping HandleCaps()";
 	m_Clipboard->setText(previous);
 	m_Busy = false;
 }

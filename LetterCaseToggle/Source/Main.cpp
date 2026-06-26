@@ -9,6 +9,7 @@ int main(int argc, char *argv[])
     App logic(app);
 
     g_App = &logic;
+    qDebug() << &g_App;
 
     KeyboardHook kh;
     if (!kh.Start())
@@ -16,6 +17,7 @@ int main(int argc, char *argv[])
 
     // Unhook before closing the application
     QObject::connect(&app, &QApplication::aboutToQuit, [&kh] {
+        qDebug() << "kh.stop";
         kh.Stop();
     });
 

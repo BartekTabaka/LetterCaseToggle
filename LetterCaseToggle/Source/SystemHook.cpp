@@ -9,6 +9,7 @@ bool KeyboardHook::Start()
 	hook = SetWindowsHookEx(WH_KEYBOARD_LL, KeyboardProc, GetModuleHandle(nullptr), 0);
 
 	// Check if the hook was successfully installed
+	qDebug() << "Successfully created hook";
 	return IsActive();
 }
 
@@ -17,6 +18,7 @@ void KeyboardHook::Stop()
 	if (hook) {
 		UnhookWindowsHookEx(hook);
 		hook = nullptr;
+		qDebug() << "Successfully unhooked";
 	}
 }
 
@@ -29,10 +31,14 @@ bool KeyboardHook::IsActive() const
 
 LRESULT KeyboardProc(int nCode, WPARAM wParam, LPARAM lParam)
 {
+	qDebug() << "KeyboardProc()";
 	if (nCode == HC_ACTION) {
+		qDebug() << "KeyboardProc() - take action";
 		auto* kb = (KBDLLHOOKSTRUCT*)lParam; // Event parameters
 		if (kb->vkCode == VK_CAPITAL && wParam == WM_KEYDOWN) {
+			qDebug() << "KeyboardProc() - met event requirements";
 			if (g_App) {
+				qDebug() << "KeyboardProc() - invoking method HandleCaps()";
 				// Dispatch to Qt event loop thread
 				QMetaObject::invokeMethod(
 					g_App,
@@ -46,11 +52,13 @@ LRESULT KeyboardProc(int nCode, WPARAM wParam, LPARAM lParam)
 		}
 	}
 
+	qDebug() << "KeyboardProc() - hook forwarded";
 	return CallNextHookEx(nullptr, nCode, wParam, lParam);
 }
 
 void SendCtrlCommand(WORD vk)
 {
+	qDebug() << "SendCtrlCommand('" << vk << "')";
 	INPUT inputs[4] = {};
 
 	// CTRL press
