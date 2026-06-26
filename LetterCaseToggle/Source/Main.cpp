@@ -1,13 +1,15 @@
 ﻿#include <print>
 #include <QApplication>
 
+#include "App.h"
 #include "Core/TextTransform.h"
 
-int main()
+int main(int argc, char *argv[])
 {
-    string entry = "sLoWo";
+    QApplication app(argc, argv);
+    App logic(app);
 
-    std::println("{}", Core::ToggleCase(entry));
+    g_App = &logic;
 
-    return 0;
+    return app.exec();
 }

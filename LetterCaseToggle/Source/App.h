@@ -1,9 +1,20 @@
 #pragma once
+#include <QApplication>
+#include <QSystemTrayIcon>
+#include <QClipboard>
 
-// include windows.h i shellapi
+class App;
+static App* g_App = nullptr;
 
-struct AppState {
-	//Zmienne
+class App : public QObject {
+	Q_OBJECT
+public:
+	explicit App(QApplication& app);
+
+	void HandleCaps();
+private:
+	QApplication& m_App;
+	QSystemTrayIcon* m_Tray;
+	QClipboard* m_Clipboard;
+	bool m_Busy = false;
 };
-
-extern AppState g_AppState;

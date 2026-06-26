@@ -1,28 +1,23 @@
 #include "TextTransform.h"
 #include <algorithm>
-#include <cctype>
 
 namespace Core
 {
-	string ToggleCase(const string& input)
+	static std::wstring ToggleCase(const std::wstring& input)
 	{
 		bool hasLower = false;
-		for (char ch : input) {
-			if (std::islower(static_cast<unsigned char>(ch))) {
+		for (wchar_t c : input) {
+			if (islower(c)) {
 				hasLower = true;
 				break;
 			}
 		}
 
-		string result = input;
-		if (hasLower) {
-			std::transform(result.begin(), result.end(), result.begin(),
-				[](unsigned char ch) { return static_cast<char>(std::toupper(ch)); });
-		}
-		else {
-			std::transform(result.begin(), result.end(), result.begin(),
-				[](unsigned char ch) { return static_cast<char>(std::tolower(ch)); });
-		}
+		std::wstring result = input;
+		if (hasLower)
+			std::transform(result.begin(), result.end(), result.begin(), towupper);
+		else
+			std::transform(result.begin(), result.end(), result.begin(), towlower);
 
 		return result;
 	}

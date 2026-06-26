@@ -1,9 +1,7 @@
 #pragma once
 #include <string>
 
-using string = std::string;
-
 namespace Core
 {
-	string ToggleCase(const string& input);
+	static std::wstring ToggleCase(const std::wstring& input);
 }
