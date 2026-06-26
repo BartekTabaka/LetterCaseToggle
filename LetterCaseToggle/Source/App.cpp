@@ -3,6 +3,9 @@
 #include "SystemHook.h"
 #include "Core/TextTransform.h"
 #include <string>
+#include <QLabel>
+
+App* g_App = nullptr;
 
 App::App(QApplication& app) : m_App(app)
 {

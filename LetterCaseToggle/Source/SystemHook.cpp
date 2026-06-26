@@ -34,7 +34,11 @@ LRESULT KeyboardProc(int nCode, WPARAM wParam, LPARAM lParam)
 		if (kb->vkCode == VK_CAPITAL && wParam == WM_KEYDOWN) {
 			if (g_App) {
 				// Dispatch to Qt event loop thread
-				QMetaObject::invokeMethod(g_App, "HandleCaps", Qt::QueuedConnection);
+				QMetaObject::invokeMethod(
+					g_App,
+					[=]() { g_App->HandleCaps(); },
+					Qt::QueuedConnection
+				);
 			}
 
 			// Don't forward the event

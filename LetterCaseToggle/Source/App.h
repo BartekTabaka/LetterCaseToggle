@@ -5,7 +5,7 @@
 
 // ─── Forward ─────────────────────────────
 class App;
-static App* g_App = nullptr; // Pointer to the application instance for global access 
+extern App* g_App; // Pointer to the application instance for global access 
 
 // ─── App class ───────────────────────────
 class App : public QObject {
