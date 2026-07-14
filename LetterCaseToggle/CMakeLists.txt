@@ -19,6 +19,7 @@ target_include_directories(LetterCaseToggle PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/
 # Libraries
 target_link_libraries(LetterCaseToggle PRIVATE
     Qt6::Widgets
+    Qt6::Core
     Core
 )
 

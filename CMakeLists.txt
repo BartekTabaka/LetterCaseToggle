@@ -9,6 +9,10 @@ set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTORCC ON)
 
+set_property(GLOBAL PROPERTY USE_FOLDERS ON)
+
+set_property(GLOBAL PROPERTY AUTOGEN_SOURCE_GROUP "Generated")
+
 # Dependemcies
 include(Dependencies.cmake)
 
