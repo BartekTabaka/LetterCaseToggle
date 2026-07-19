@@ -10,10 +10,8 @@ private:
 	HHOOK hook = nullptr;
 };
 
-/// <summary>
-/// Low-level keyboard hook that intercepts Caps Lock and dispatches handling
-/// to the Qt event loop. The original event is suppressed.
-/// </summary>
+// Low-level keyboard hook that intercepts Caps Lock and dispatches handling
+// to the Qt event loop. The original event is suppressed.
 LRESULT CALLBACK KeyboardProc(int code, WPARAM wParam, LPARAM lParam);
 
 // Simulates a Ctrl + key keyboard shortcut using SendInput.

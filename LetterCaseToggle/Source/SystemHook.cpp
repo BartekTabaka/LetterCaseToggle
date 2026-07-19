@@ -7,8 +7,6 @@
 bool KeyboardHook::Start()
 {
 	hook = SetWindowsHookEx(WH_KEYBOARD_LL, KeyboardProc, GetModuleHandle(nullptr), 0);
-
-	// Check if the hook was successfully installed
 	qDebug() << "Successfully created hook";
 	return IsActive();
 }
@@ -29,22 +27,36 @@ bool KeyboardHook::IsActive() const
 
 #pragma endregion
 
-LRESULT KeyboardProc(int nCode, WPARAM wParam, LPARAM lParam)
+static bool g_capsPhysicallyDown = false;
+
+LRESULT CALLBACK KeyboardProc(int nCode, WPARAM wParam, LPARAM lParam)
 {
 	qDebug() << "KeyboardProc()";
 	if (nCode == HC_ACTION) {
 		qDebug() << "KeyboardProc() - take action";
-		auto* kb = (KBDLLHOOKSTRUCT*)lParam; // Event parameters
-		if (kb->vkCode == VK_CAPITAL && wParam == WM_KEYDOWN) {
-			qDebug() << "KeyboardProc() - met event requirements";
-			if (g_App) {
-				qDebug() << "KeyboardProc() - invoking method HandleCaps()";
-				// Dispatch to Qt event loop thread
-				QMetaObject::invokeMethod(
-					g_App,
-					[=]() { g_App->HandleCaps(); },
-					Qt::QueuedConnection
-				);
+		auto *kb = (KBDLLHOOKSTRUCT *)lParam; // Event parameters
+		const bool isCapsLock = (kb->vkCode == VK_CAPITAL);
+
+		if (isCapsLock && (wParam == WM_KEYDOWN || wParam == WM_KEYUP)) {
+			qDebug() << "KeyboardProc() - CapsLock key changed states";
+			if (wParam == WM_KEYDOWN) {
+				if (!g_capsPhysicallyDown) {
+					g_capsPhysicallyDown = true;
+					qDebug() << "KeyboardProc() - met event requirements";
+					if (g_App) {
+						qDebug() << "KeyboardProc() - invoking method HandleCaps()";
+						// Dispatch to Qt event loop thread
+						QMetaObject::invokeMethod(
+							g_App,
+							[=]() { g_App->HandleCaps(); },
+							Qt::QueuedConnection
+						);
+					}
+				}
+				// else: autorepeat while held down - ignore, already handled on the first down-edge
+			}
+			else { // WM_KEYUP
+				g_capsPhysicallyDown = false;
 			}
 
 			// Don't forward the event
