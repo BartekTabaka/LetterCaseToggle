@@ -27,6 +27,7 @@ int main(int argc, char *argv[])
 
     g_App = &logic;
 
+    // Setting up hook
     KeyboardHook kh;
     g_KeyboardHook = &kh;
     if (!kh.Start())

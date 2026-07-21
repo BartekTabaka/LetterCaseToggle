@@ -10,6 +10,8 @@ echo.
 echo ========================
 echo Building project...
 echo ========================
+:: Uses VS 2022 and Qt 6.11 located in C:/ by default.
+:: Change parameters to use a different Visual Studio/Qt version.
 cmake -B build -S . -G "Visual Studio 17 2022" -DCMAKE_PREFIX_PATH="C:\Qt\6.11.0\msvc2022_64" || exit /b
 
 echo.

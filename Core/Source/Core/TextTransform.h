@@ -3,9 +3,7 @@
 
 namespace Core
 {
-	/// <summary>
-	/// Toggles string case: if any lowercase letter is present, converts to uppercase; otherwise converts to lowercase.
-	/// Non-alphabetic characters remain unchanged.
-	/// </summary>
+	// Toggles string case: if any lowercase letter is present, converts to uppercase; otherwise converts to lowercase.
+	// Non-alphabetic characters remain unchanged.
 	std::wstring ToggleCase(const std::wstring& input);
 }

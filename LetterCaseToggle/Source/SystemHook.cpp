@@ -133,7 +133,7 @@ static bool g_capsPhysicallyDown = false;
 LRESULT CALLBACK KeyboardProc(int nCode, WPARAM wParam, LPARAM lParam)
 {
 	if (nCode == HC_ACTION) {
-		auto *kb = (KBDLLHOOKSTRUCT *)lParam; // Event parameters
+		auto *kb = (KBDLLHOOKSTRUCT*)lParam; // Event parameters
 		const bool isCapsLock = (kb->vkCode == VK_CAPITAL);
 
 		if (kb->flags & LLKHF_INJECTED)
