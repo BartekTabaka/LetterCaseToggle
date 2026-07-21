@@ -57,8 +57,9 @@ App::App(QApplication& app) : m_App(app)
 
 // Toggles the case of the currently selected text by copying it to the clipboard,
 // transforming it, and pasting it back, while preserving the previous clipboard content.
-// If CapsLock has been pressed but no text is selected, the original clipboard content is restored.
-// Includes short delays to ensure clipboard and input events are processed correctly by the system.
+// If Caps Lock is pressed but no text is selected (or no valid target window can be
+// found), we fall back to a normal simulated Caps Lock press via SendCapsLockToggle()
+// so typing in caps still works as usual.
 void App::HandleCaps()
 {
 	if (m_Busy) 
@@ -66,26 +67,62 @@ void App::HandleCaps()
 	m_Busy = true;
 	qDebug() << "HandleCaps()";
 
+	const HWND target = GetTargetWindow();
+	const bool targetActive = IsTargetWindowActive(target);
+	if (!target) {
+		// Nothing to toggle-case and nowhere to send it - let Caps Lock behave
+		// normally so the user can still type in caps without reaching for Shift.
+		SendCapsLockToggle();
+		m_Busy = false;
+		return;
+	}
+
 	QString previous = m_Clipboard->text();
 	const DWORD seqBeforeClear = GetClipboardSequenceNumber();
 	m_Clipboard->clear();
 	WaitWithEvents(30);
 
-	SendCtrlCommand('C');
-	qDebug() << "Sent Ctrl+C";
+	CopySelectionFromTarget(target);
 	WaitForClipboardChange(seqBeforeClear, 80);
 
 	QString selected = m_Clipboard->text();
-	if (!selected.isEmpty()) {
-		qDebug() << "Text was selected";
-		std::wstring input = selected.toStdWString();
-		std::wstring toggled = Core::ToggleCase(input);
 
-		m_Clipboard->setText(QString::fromStdWString(toggled));
-
+	if (selected.isEmpty()) {
+		if (!targetActive)
+			FocusTargetWindow(target);
 		WaitWithEvents(30);
+
+		// Safety check
+		if (!IsOwnProcessWindow(GetForegroundWindow())) {
+			const DWORD seqBeforeSendC = GetClipboardSequenceNumber();
+			SendCtrlCommand('C');
+			WaitForClipboardChange(seqBeforeSendC, 150);
+			selected = m_Clipboard->text();
+		}
+	}
+
+	if (selected.isEmpty()) {
+		SendCapsLockToggle();
+		m_Clipboard->setText(previous);
+		m_Busy = false;
+		return;
+	}
+
+	qDebug() << "Text was selected";
+	std::wstring input = selected.toStdWString();
+	std::wstring toggled = Core::ToggleCase(input);
+
+	m_Clipboard->setText(QString::fromStdWString(toggled));
+	WaitWithEvents(30);
+
+	if (!targetActive)
+		FocusTargetWindow(target);
+	WaitWithEvents(30);
+
+	// Safety check
+	if (!IsOwnProcessWindow(GetForegroundWindow())) {
 		SendCtrlCommand('V');
-		WaitWithEvents(80);
+		WaitWithEvents(120);
 	}
 
 	qDebug() << "Escaping HandleCaps()";
