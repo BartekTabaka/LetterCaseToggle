@@ -26,7 +26,6 @@ int main(int argc, char *argv[])
     App logic(app);
 
     g_App = &logic;
-    qDebug() << &g_App;
 
     KeyboardHook kh;
     g_KeyboardHook = &kh;

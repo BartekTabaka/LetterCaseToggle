@@ -132,9 +132,7 @@ static bool g_capsPhysicallyDown = false;
 
 LRESULT CALLBACK KeyboardProc(int nCode, WPARAM wParam, LPARAM lParam)
 {
-	qDebug() << "KeyboardProc()";
 	if (nCode == HC_ACTION) {
-		qDebug() << "KeyboardProc() - take action";
 		auto *kb = (KBDLLHOOKSTRUCT *)lParam; // Event parameters
 		const bool isCapsLock = (kb->vkCode == VK_CAPITAL);
 
@@ -146,13 +144,10 @@ LRESULT CALLBACK KeyboardProc(int nCode, WPARAM wParam, LPARAM lParam)
 			g_lastExternalForeground = foreground;
 
 		if (isCapsLock && (wParam == WM_KEYDOWN || wParam == WM_KEYUP)) {
-			qDebug() << "KeyboardProc() - CapsLock key changed states";
 			if (wParam == WM_KEYDOWN) {
 				if (!g_capsPhysicallyDown) {
 					g_capsPhysicallyDown = true;
-					qDebug() << "KeyboardProc() - met event requirements";
 					if (g_App) {
-						qDebug() << "KeyboardProc() - invoking method HandleCaps()";
 						// Dispatch to Qt event loop thread
 						QMetaObject::invokeMethod(
 							g_App,
@@ -172,7 +167,6 @@ LRESULT CALLBACK KeyboardProc(int nCode, WPARAM wParam, LPARAM lParam)
 		}
 	}
 
-	qDebug() << "KeyboardProc() - hook forwarded";
 	return CallNextHookEx(nullptr, nCode, wParam, lParam);
 }
 
