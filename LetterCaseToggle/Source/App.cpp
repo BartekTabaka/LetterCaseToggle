@@ -7,7 +7,7 @@
 #include <QLabel>
 #include <QTimer>
 
-App* g_App = nullptr;
+App *g_App = nullptr;
 
 namespace
 {
