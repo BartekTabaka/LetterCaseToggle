@@ -82,6 +82,9 @@ void App::HandleCaps()
 	m_Clipboard->clear();
 	WaitWithEvents(30);
 
+	// Fast path: ask the focused control to copy directly. Works for standard
+	// Win32 controls; custom editors (VS, VS Code, browsers) often ignore it,
+	// in which case selected stays empty and we fall back below.
 	CopySelectionFromTarget(target);
 	WaitForClipboardChange(seqBeforeClear, 80);
 
@@ -92,7 +95,12 @@ void App::HandleCaps()
 			FocusTargetWindow(target);
 		WaitWithEvents(30);
 
-		// Safety check
+		// Safety check: FocusTargetWindow's result is a best-effort attempt and
+		// isn't guaranteed - if it silently failed, the foreground could still
+		// be our own process (including our own console). A real Ctrl+C landing
+		// on our own console raises DBG_CONTROL_C and can kill the process, so
+		// we only send the synthetic Ctrl+C once something else genuinely has
+		// focus (SetConsoleCtrlHandler in Main.cpp is a backstop for this too).
 		if (!IsOwnProcessWindow(GetForegroundWindow())) {
 			const DWORD seqBeforeSendC = GetClipboardSequenceNumber();
 			SendCtrlCommand('C');
@@ -102,6 +110,9 @@ void App::HandleCaps()
 	}
 
 	if (selected.isEmpty()) {
+		// Nothing was selected anywhere - fall back to normal Caps Lock
+		// behaviour so typing still works (Shift would otherwise be the only
+		// way to get capitals).
 		SendCapsLockToggle();
 		m_Clipboard->setText(previous);
 		m_Busy = false;
@@ -119,7 +130,8 @@ void App::HandleCaps()
 		FocusTargetWindow(target);
 	WaitWithEvents(30);
 
-	// Safety check
+	// Same safety check as the copy fallback above - if the target never
+	// actually got focus, don't paste into whatever we happen to be sitting on.
 	if (!IsOwnProcessWindow(GetForegroundWindow())) {
 		SendCtrlCommand('V');
 		WaitWithEvents(120);

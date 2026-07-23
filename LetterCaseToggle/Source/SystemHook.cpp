@@ -128,6 +128,11 @@ bool KeyboardHook::IsActive() const
 
 #pragma endregion
 
+// Tracks whether Caps Lock is physically held down right now. Without this,
+// holding the key generates OS autorepeat (WM_KEYDOWN over and over), and
+// every single one of those would queue a full HandleCaps() run - almost all
+// of which would just get dropped by the m_Busy guard. We only act on the
+// true down-edge (up -> down transition) and ignore repeats until a keyup.
 static bool g_capsPhysicallyDown = false;
 
 LRESULT CALLBACK KeyboardProc(int nCode, WPARAM wParam, LPARAM lParam)
@@ -162,7 +167,8 @@ LRESULT CALLBACK KeyboardProc(int nCode, WPARAM wParam, LPARAM lParam)
 				g_capsPhysicallyDown = false;
 			}
 
-			// Don't forward the event
+			// Don't forward Caps Lock down/up to the system - this is what stops
+			// the keyboard's own Caps Lock state from ever toggling.
 			return 1;
 		}
 	}
