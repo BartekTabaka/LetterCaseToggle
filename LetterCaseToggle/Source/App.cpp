@@ -73,6 +73,15 @@ App::App(QApplication& app) : m_App(app)
 
 	// Clipboard
 	m_Clipboard = QApplication::clipboard();
+
+	// Notify the user that the app is running in the background, 
+	// otherwise they would have to check the system tray to confirm it started
+	m_Tray->showMessage(
+		"Letter Case Toggle",
+		"Letter Case Toggle is running in the background!\nYou can close it from the system tray.",
+		QSystemTrayIcon::Information,
+		3000
+	);
 }
 
 App::~App()
