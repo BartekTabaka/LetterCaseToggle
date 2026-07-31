@@ -7,6 +7,8 @@ set(ASSET_FILES
     Assets/appIcon.ico
 
     Assets/assetFiles.qrc
+
+    LetterCaseToggle.rc
 )
 
 set(SOURCES
