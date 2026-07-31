@@ -19,6 +19,8 @@ public:
 	// Handles CapsLock key press event
 	void HandleCaps();
 private:
+	void TrayClicked(QSystemTrayIcon::ActivationReason reason);
+private:
 	QApplication& m_App;		// Qt app instance used for event dispatching
 
 	QSystemTrayIcon *m_Tray;	// Application tray icon for running in background

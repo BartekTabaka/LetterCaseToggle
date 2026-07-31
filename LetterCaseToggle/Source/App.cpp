@@ -66,6 +66,10 @@ App::App(QApplication& app) : m_App(app)
 	m_Tray->setContextMenu(m_TrayMenu);
 	m_Tray->show();
 
+	QObject::connect(m_Tray, &QSystemTrayIcon::activated, [this](QSystemTrayIcon::ActivationReason reason) {
+		TrayClicked(reason);
+	});
+
 	// Hide the tray icon before quitting to avoid a lingering icon
 	QObject::connect(&m_App, &QApplication::aboutToQuit, [this]() {
 		m_Tray->hide();
@@ -179,4 +183,11 @@ void App::HandleCaps()
 	qDebug() << "Escaping HandleCaps()";
 	m_Clipboard->setText(previous);
 	m_Busy = false;
+}
+
+void App::TrayClicked(QSystemTrayIcon::ActivationReason reason)
+{
+	// Close the app after middle-clicking the tray icon
+	if (reason == QSystemTrayIcon::MiddleClick)
+		m_App.quit();
 }
