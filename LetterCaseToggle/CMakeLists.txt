@@ -3,6 +3,12 @@
 #
 
 # Files
+set(ASSET_FILES
+    Assets/appIcon.ico
+
+    Assets/assetFiles.qrc
+)
+
 set(SOURCES
     Source/Main.cpp
 
@@ -11,7 +17,7 @@ set(SOURCES
     Source/SystemHook.h
     Source/SystemHook.cpp
 
-    Assets/assetFiles.qrc
+    ${ASSET_FILES}
 )
 qt_add_executable(LetterCaseToggle)
 target_sources(LetterCaseToggle PRIVATE ${SOURCES})
@@ -45,3 +51,5 @@ target_compile_options(LetterCaseToggle PRIVATE
 set_target_properties(LetterCaseToggle PROPERTIES 
     VS_DEBUGGER_WORKING_DIRECTORY "${CMAKE_SOURCE_DIR}/LetterCaseToggle"
 )
+
+source_group("Assets" FILES ${ASSET_FILES})
