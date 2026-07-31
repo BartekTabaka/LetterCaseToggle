@@ -67,5 +67,7 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
-/Nowy dokument tekstowy.txt
-/Podzial.txt
+
+# scripts
+/BuildDaProject.bat
+/CreateRelease.bat
