@@ -28,6 +28,10 @@ target_link_libraries(LetterCaseToggle PRIVATE
 # Windows-only stuff
 if (WIN32)
     target_link_libraries(LetterCaseToggle PRIVATE user32)
+
+    set_target_properties(LetterCaseToggle PROPERTIES 
+        WIN32_EXECUTABLE $<CONFIG:RELEASE>
+    )
 endif()
 
 # Compilation options
