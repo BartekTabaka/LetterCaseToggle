@@ -49,10 +49,40 @@ namespace
 
 App::App(QApplication& app) : m_App(app)
 {
-	// Tray (uninitialized!)
+	// Tray
+	m_Tray = new QSystemTrayIcon(&m_App);
+
+	m_Tray->setIcon(QIcon(":/appIcon.ico"));
+	m_Tray->setToolTip("Letter Case Toggle");
+
+	// No QWidget parent available, so m_TrayMenu is deleted manually in the destructor
+	m_TrayMenu = new QMenu();
+
+	m_QuitAction = new QAction("Quit", m_TrayMenu);
+	QObject::connect(m_QuitAction, &QAction::triggered, &m_App, &QApplication::quit);
+
+	m_TrayMenu->addAction(m_QuitAction);
+
+	m_Tray->setContextMenu(m_TrayMenu);
+	m_Tray->show();
+
+	// Hide the tray icon before quitting to avoid a lingering icon
+	QObject::connect(&m_App, &QApplication::aboutToQuit, [this]() {
+		m_Tray->hide();
+	});
 
 	// Clipboard
 	m_Clipboard = QApplication::clipboard();
+}
+
+App::~App()
+{
+	// m_TrayMenu doesn't have a parent so we have to delete it manually.
+	// This also deletes m_QuitAction, since m_TrayMenu is its parent.
+	delete m_TrayMenu;
+
+	// m_Tray is not deleted here - it has m_App as its parent,
+	// so Qt will delete it automatically
 }
 
 // Toggles the case of the currently selected text by copying it to the clipboard,

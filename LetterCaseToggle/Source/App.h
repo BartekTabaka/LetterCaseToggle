@@ -2,6 +2,8 @@
 #include <QApplication>
 #include <QSystemTrayIcon>
 #include <QClipboard>
+#include <QMenu>
+#include <QAction>
 
 // ─── Forward ─────────────────────────────
 class App;
@@ -12,12 +14,17 @@ class App : public QObject {
 	Q_OBJECT
 public:
 	explicit App(QApplication& app);
+	~App();
 
 	// Handles CapsLock key press event
 	void HandleCaps();
 private:
 	QApplication& m_App;		// Qt app instance used for event dispatching
-	//QSystemTrayIcon *m_Tray;	// Application tray icon for running in background
+
+	QSystemTrayIcon *m_Tray;	// Application tray icon for running in background
+	QMenu *m_TrayMenu;			// Menu used by app's tray icon
+	QAction *m_QuitAction;		
+
 	QClipboard *m_Clipboard;	// Access to system clipboard
 	bool m_Busy = false;		// Prevents re-entry while clipboard operation is running
 };

@@ -10,6 +10,8 @@ set(SOURCES
     Source/App.cpp
     Source/SystemHook.h
     Source/SystemHook.cpp
+
+    Assets/assetFiles.qrc
 )
 qt_add_executable(LetterCaseToggle)
 target_sources(LetterCaseToggle PRIVATE ${SOURCES})
