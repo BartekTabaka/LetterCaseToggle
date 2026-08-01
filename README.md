@@ -128,6 +128,11 @@ LetterCaseToggle/
 ## Notes
 
 - Windows-only (uses `<Windows.h>`, `SetWindowsHookEx`, `SendInput`, etc.)
+- Some editors and IDEs (e.g. Visual Studio, VS Code) copy the entire current
+  line via `Ctrl+C` when nothing is selected. In those apps, pressing Caps
+  Lock without an actual selection may insert a copy of the current line
+  (with its case toggled) next to your cursor, instead of falling back to a
+  normal Caps Lock press.
 - Still in development.
 
 > **Disclaimer:** This software is provided "as is", without warranty of any
