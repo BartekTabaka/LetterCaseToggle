@@ -5,6 +5,8 @@
 set(SOURCES
     Source/Core/TextTransform.h
     Source/Core/TextTransform.cpp
+    Source/Core/TimingProfile.h
+    Source/Core/TimingProfile.cpp
 )
 
 # Library definition

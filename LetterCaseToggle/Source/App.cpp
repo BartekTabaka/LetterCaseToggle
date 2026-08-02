@@ -6,6 +6,7 @@
 #include <QEventLoop>
 #include <QLabel>
 #include <QTimer>
+#include <QDebug>
 
 App *g_App = nullptr;
 
@@ -51,16 +52,37 @@ App::App(QApplication& app) : m_App(app)
 {
 	// Tray
 	m_Tray = new QSystemTrayIcon(&m_App);
-
 	m_Tray->setIcon(QIcon(":/appIcon.ico"));
 	m_Tray->setToolTip("Letter Case Toggle");
 
 	// No QWidget parent available, so m_TrayMenu is deleted manually in the destructor
 	m_TrayMenu = new QMenu();
 
+	// Speed menu
+	m_SpeedMenu = new QMenu("Speed", m_TrayMenu);
+	m_SpeedGroup = new QActionGroup(m_TrayMenu);
+	m_SpeedGroup->setExclusive(true);
+
+	auto addSpeedOption = [this](const QString& name, Core::Speed speed, bool checked) {
+		QAction *action = new QAction(name, m_SpeedMenu);
+		action->setCheckable(true);
+		action->setChecked(checked);
+
+		m_SpeedGroup->addAction(action);
+		m_SpeedMenu->addAction(action);
+
+		QObject::connect(action, &QAction::triggered, [this, speed]() {
+			SetSpeed(speed);
+		});
+	};
+	addSpeedOption("Normal", Core::Speed::Normal, true);
+	addSpeedOption("Fast", Core::Speed::Fast, false);
+
 	m_QuitAction = new QAction("Quit", m_TrayMenu);
 	QObject::connect(m_QuitAction, &QAction::triggered, &m_App, &QApplication::quit);
 
+	m_TrayMenu->addMenu(m_SpeedMenu);
+	m_TrayMenu->addSeparator();
 	m_TrayMenu->addAction(m_QuitAction);
 
 	m_Tray->setContextMenu(m_TrayMenu);
@@ -123,20 +145,20 @@ void App::HandleCaps()
 	QString previous = m_Clipboard->text();
 	const DWORD seqBeforeClear = GetClipboardSequenceNumber();
 	m_Clipboard->clear();
-	WaitWithEvents(30);
+	WaitWithEvents(m_Timing.settleWait);
 
 	// Fast path: ask the focused control to copy directly. Works for standard
 	// Win32 controls; custom editors (VS, VS Code, browsers) often ignore it,
 	// in which case selected stays empty and we fall back below.
 	CopySelectionFromTarget(target);
-	WaitForClipboardChange(seqBeforeClear, 80);
+	WaitForClipboardChange(seqBeforeClear, m_Timing.copyTimeout);
 
 	QString selected = m_Clipboard->text();
 
 	if (selected.isEmpty()) {
 		if (!targetActive)
 			FocusTargetWindow(target);
-		WaitWithEvents(30);
+		WaitWithEvents(m_Timing.settleWait);
 
 		// Safety check: FocusTargetWindow's result is a best-effort attempt and
 		// isn't guaranteed - if it silently failed, the foreground could still
@@ -147,7 +169,7 @@ void App::HandleCaps()
 		if (!IsOwnProcessWindow(GetForegroundWindow())) {
 			const DWORD seqBeforeSendC = GetClipboardSequenceNumber();
 			SendCtrlCommand('C');
-			WaitForClipboardChange(seqBeforeSendC, 150);
+			WaitForClipboardChange(seqBeforeSendC, m_Timing.ctrlCTimeout);
 			selected = m_Clipboard->text();
 		}
 	}
@@ -167,17 +189,17 @@ void App::HandleCaps()
 	std::wstring toggled = Core::ToggleCase(input);
 
 	m_Clipboard->setText(QString::fromStdWString(toggled));
-	WaitWithEvents(30);
+	WaitWithEvents(m_Timing.settleWait);
 
 	if (!targetActive)
 		FocusTargetWindow(target);
-	WaitWithEvents(30);
+	WaitWithEvents(m_Timing.settleWait);
 
 	// Same safety check as the copy fallback above - if the target never
 	// actually got focus, don't paste into whatever we happen to be sitting on.
 	if (!IsOwnProcessWindow(GetForegroundWindow())) {
 		SendCtrlCommand('V');
-		WaitWithEvents(120);
+		WaitWithEvents(m_Timing.pasteWait);
 	}
 
 	qDebug() << "Escaping HandleCaps()";
@@ -190,4 +212,14 @@ void App::TrayClicked(QSystemTrayIcon::ActivationReason reason)
 	// Close the app after middle-clicking the tray icon
 	if (reason == QSystemTrayIcon::MiddleClick)
 		m_App.quit();
+}
+
+void App::SetSpeed(Core::Speed speed)
+{
+	const bool changed = (m_CurrentSpeed != speed);
+	m_Timing = Core::GetTimingProfile(speed);
+	m_CurrentSpeed = speed;
+
+	qDebug() << "Changed timing profile to:" << (speed == Core::Speed::Normal ? "normal" : "fast")
+			 << (changed ? "(changed)" : "(unchanged)");
 }
